@@ -31,7 +31,7 @@ Many videos blend both - a framework structure with walkthrough demos at each st
 **Goal:** Confirm the click. Make the viewer think "yes, this is what I need."
 
 Pattern:
-- Start with a **relatable pain point** or **bold claim** with a specific cost/number
+- Start with a **relatable pain point** or **bold claim**
 - Immediately show **visual proof or demo** on screen (this is critical in Samin's niche - people need to SEE it working)
 - Keep it under 30 seconds
 
@@ -40,8 +40,10 @@ Example (Taxes video):
 
 Formula:
 ```
-[Pain point with specific cost/time] + [What if AI could solve this?] + [Visual proof on screen]
+[Relatable pain point or bold claim] + [What if AI could solve this?] + [Visual proof on screen]
 ```
+
+**NOTE:** Do NOT default to financial angles (costs, savings, money). Lead with frustration, time waste, complexity, or a bold "what if" instead. Numbers are fine if natural, but never force a dollar amount into the hook.
 
 ### 2. TEASE (next 15-30 seconds)
 **Goal:** Tell them exactly what they'll learn and give the framework name.
@@ -259,7 +261,7 @@ When generating an outline, use this format:
 
 - Every framework MUST have an acronym (3-5 letters)
 - Every concept MUST have an analogy before the demo
-- The hook MUST include a specific number (cost, time, percentage)
+- The hook SHOULD include a specific number if it fits naturally, but it's not required
 - Visual proof in the first 30 seconds is non-negotiable
 - Include "[Let me show you]" transition before every demo section
 - Analogies should be fresh - never reuse the exact same one across videos

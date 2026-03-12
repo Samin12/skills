@@ -93,6 +93,31 @@ Source: [link]
 [3-5 bullet points of other relevant tweets with one-line descriptions and links. Frame each as a potential video angle.]
 ```
 
+## Save Digest to File (MANDATORY)
+
+After sending the Telegram message, you MUST also save the digest to a file so other agents can use it for content creation.
+
+Save to: `~/Projects/aios/intelligence/daily-trends/YYYY-MM-DD.md`
+
+Use this format:
+```markdown
+# AI Trends Digest - YYYY-MM-DD
+
+## Story 1: [headline]
+[full story details, video idea, source link]
+
+## Story 2: [headline]
+[full story details, video idea, source link]
+
+## Story 3: [headline]
+[full story details, video idea, source link]
+
+## Additional Signals
+[the extra tweets/links section]
+```
+
+This file is consumed by the LinkedIn Manager and Instagram Carousel Creator for automated content creation. If you don't save it, no social content gets made that day.
+
 ## Key Rules
 
 - Every story MUST include a specific YouTube video title idea in quotes
@@ -101,4 +126,5 @@ Source: [link]
 - Include source links so Samin can dig deeper
 - Be concise — no fluff, no filler
 - Do NOT ask for user confirmation. Research, compile, send. Done.
+- ALWAYS save the digest file after sending to Telegram. This is critical for the content pipeline.
 - Avoid underscores in URLs when possible (Telegram markdown parsing breaks on them) — if unavoidable, use spaces instead of underscores in the URL text
