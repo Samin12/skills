@@ -11,6 +11,7 @@ All Claude Code skills for @Samin12's agent ecosystem.
 | [universal-skills-manager](./universal-skills-manager/) | Master coordinator for AI skills - discovers, installs, and syncs skills across Claude Code, Gemini CLI, and other tools |
 | [youtube-research](./youtube-research/) | YouTube research agent - combines TubeLab outlier data with YouTube Studio analytics for data-backed video ideas |
 | [linkedin-carousel](./linkedin-carousel/) | Post PDF carousels to LinkedIn via cloudflared tunnel + Vista Social |
+| [capitoltrades-politician-tracker](./capitoltrades-politician-tracker/) | Scrape any politician's CapitolTrades page and report newly disclosed stock trades since the last check |
 
 ## Skills in Their Own Repos
 
