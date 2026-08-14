@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Orchestrator"
+  short_description: "Coordinate parallel Codex tasks by voice"
+  default_prompt: "Use $voice-orchestrator to launch these tasks in parallel and keep me updated concisely."
