@@ -1,0 +1,4 @@
+interface:
+  display_name: "NVMe Offload"
+  short_description: "Move Downloads and large videos to your NVMe"
+  default_prompt: "Use $nvme-offload to move completed Downloads and approved videos over 500 MB to my NVMe, then verify the transfers."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Think Visualizer"
+  short_description: "Turn ideas into pink-sheet visuals"
+  default_prompt: "Use $think-visualizer to turn this idea into an interactive HTML visual and a generated image."

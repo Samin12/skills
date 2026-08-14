@@ -1,3 +1,8 @@
+---
+name: ytstudio
+description: "ytstudio - YouTube Analytics & Management"
+---
+
 # ytstudio - YouTube Analytics & Management
 
 YouTube channel analytics and video management via the ytstudio CLI.

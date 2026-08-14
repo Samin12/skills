@@ -1,0 +1,20 @@
+# Preserve imported skill packages byte-for-byte, including intentional Markdown
+# hard breaks and upstream template formatting, without treating those files as
+# repository-authored whitespace regressions.
+architecture-diagram/** -whitespace
+arxiv/** -whitespace
+ascii-video/** -whitespace
+embedded-captions/** -whitespace
+embedded-captions-video-editor-agents/** -whitespace
+evaluating-llms-harness/** -whitespace
+excalidraw/** -whitespace
+hermes-agent/** -whitespace
+monid/** -whitespace
+music-to-video/** -whitespace
+music-to-video-video-editor-agents/** -whitespace
+remotion/** -whitespace
+remotion-best-practices/** -whitespace
+research-paper-writing/** -whitespace
+serving-llms-vllm/** -whitespace
+touchdesigner-mcp/** -whitespace
+weights-and-biases/** -whitespace
