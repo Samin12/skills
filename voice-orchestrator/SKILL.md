@@ -1,6 +1,6 @@
 ---
 name: voice-orchestrator
-description: Coordinate multiple independent Codex tasks from one voice or chat task by creating, pinning, steering, monitoring, and synthesizing durable worker tasks. Use when the user asks to fan out work, run several workstreams in parallel, manage Codex tasks hands-free or by voice, delegate research or implementation lanes, redirect existing tasks, or receive concise progress reports. Do not use for a single small task that is faster to complete directly.
+description: Coordinate multiple independent Codex tasks from one voice or chat task by creating, pinning, steering, monitoring, and synthesizing durable worker tasks. Use when the user says "read the voice orchestrator" or asks to fan out work, run several workstreams in parallel, manage Codex tasks hands-free or by voice, delegate research or implementation lanes, redirect existing tasks, or receive concise progress reports. Do not use for a single small task that is faster to complete directly.
 ---
 
 # Voice Orchestrator
