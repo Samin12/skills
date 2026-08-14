@@ -6,6 +6,7 @@ All Claude Code skills for @Samin12's agent ecosystem.
 
 | Skill | Description |
 |---|---|
+| [voice-orchestrator](./voice-orchestrator/) | Coordinate parallel, durable Codex tasks from one voice or chat task with bounded worker contracts and concise progress handoffs |
 | [ai-trends-scout](./ai-trends-scout/) | Daily AI trends research on X/Twitter - compiles Claude-focused YouTube video ideas, sends via Telegram |
 | [world-builder](./world-builder/) | Generative game zone designer for Dorothy's Pokemon-style world |
 | [universal-skills-manager](./universal-skills-manager/) | Master coordinator for AI skills - discovers, installs, and syncs skills across Claude Code, Gemini CLI, and other tools |
