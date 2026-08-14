@@ -1,0 +1,2699 @@
+[
+  {
+    "name": "ab-test-setup",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesis.\" For tracking implementation, see analytics-tracking.",
+    "path": "ab-test-setup",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "51b1895d080bca288a6f1d8022a6a124e82338a7d88c7dd34f1f01b500286459"
+  },
+  {
+    "name": "ai-trends-scout",
+    "description": "Research trending AI news on X/Twitter and the web, then send a daily Telegram digest of Claude-focused video ideas for Samin's YouTube channel.",
+    "path": "ai-trends-scout",
+    "sources": [],
+    "origin": null,
+    "skill_sha256": "664b7fe8185234390719fab1eb193a8a73d9168964f5f9614dd6241f85c221ca"
+  },
+  {
+    "name": "airtable",
+    "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+    "path": "airtable",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "34c72aa72691cf1ed42be7105853e292ea90151d61d92999b59a4b887c4ad5e5"
+  },
+  {
+    "name": "alpaca",
+    "description": "Use when the user wants to connect to Alpaca, inspect Alpaca account or market data, or place trades through the Alpaca MCP server.",
+    "path": "alpaca",
+    "sources": [
+      "Alpaca"
+    ],
+    "origin": null,
+    "skill_sha256": "30317802e7f08bab8f6d1d384c6908dd6b35da6c308ad4fd9e0cce5059ddceb3"
+  },
+  {
+    "name": "analytics-tracking",
+    "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup.",
+    "path": "analytics-tracking",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "d3619b093a80a814821d87f40e230e165918800820738af9d6087975d765ccff"
+  },
+  {
+    "name": "apple-notes",
+    "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+    "path": "apple-notes",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "27c4ec8745a06b150a54f30cbddf42baa968d48b34fc9f812a0a41cc640c5b08"
+  },
+  {
+    "name": "apple-reminders",
+    "description": "Apple Reminders via remindctl: add, list, complete.",
+    "path": "apple-reminders",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d1c8e9d247f783c0b8ca304f7485a68c729a6ab3ff3dbf4646792482d536723a"
+  },
+  {
+    "name": "architecture-diagram",
+    "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+    "path": "architecture-diagram",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "2e3a1eb27dccddf1f1f13a02c69da124d3afadc21bcd2ac298c812444c571351"
+  },
+  {
+    "name": "arxiv",
+    "description": "Search arXiv papers by keyword, author, category, or ID.",
+    "path": "arxiv",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "1f0c1699ef608c4608e22d18e23aa0167fdaa4c4c4ed6b4e5fc26db2227fe531"
+  },
+  {
+    "name": "ascii-art",
+    "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+    "path": "ascii-art",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "fd9149535eb9a72ff38da36948c543451c8ba6e5e7ae27f5e203ae2d888c99d5"
+  },
+  {
+    "name": "ascii-video",
+    "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+    "path": "ascii-video",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "1dea1cdc303776bf5bfa4af810615f4425bacb0e462c491805b8805fe94d8336"
+  },
+  {
+    "name": "audiocraft-audio-generation",
+    "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+    "path": "audiocraft-audio-generation",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "f64aa6fc408db522d229c63f45dd90f12efd524dfefa81a88a90497bc70aea18"
+  },
+  {
+    "name": "autoplan",
+    "description": "Auto-review pipeline \u2014 reads the full CEO, design, and eng review skills from disk and runs them sequentially with auto-decisions using 6 decision principles. Surfaces taste decisions (close approaches, borderline scope, codex disagreements) at a final approval gate. One command, fully reviewed plan out. Use when asked to \"auto review\", \"autoplan\", \"run all reviews\", \"review this plan automatically\", or \"make the decisions for me\". Proactively suggest when the user has a plan file and wants to run the full review gauntlet without answering 15-30 intermediate questions.",
+    "path": "autoplan",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "efc719f9507758aa5d63ffee0a5994002d14214a3ed96109b874da599fcc8218"
+  },
+  {
+    "name": "baoyu-infographic",
+    "description": "Infographics: 21 layouts x 21 styles (\u4fe1\u606f\u56fe, \u53ef\u89c6\u5316).",
+    "path": "baoyu-infographic",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "9a8ce47c2c9869ec98c31b860c2c0153f915b7c7ca7ed57f8f58dffc3de7d9ce"
+  },
+  {
+    "name": "benchmark",
+    "description": "Performance regression detection using the browse daemon. Establishes baselines for page load times, Core Web Vitals, and resource sizes. Compares before/after on every PR. Tracks performance trends over time. Use when: \"performance\", \"benchmark\", \"page speed\", \"lighthouse\", \"web vitals\", \"bundle size\", \"load time\".",
+    "path": "benchmark",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "da0ca53291e8c4d24cd6e04c2079ce6a2a323f4357a99efec2dea45610de16b8"
+  },
+  {
+    "name": "blogwatcher",
+    "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+    "path": "blogwatcher",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "91868e24ef8b278d67f2e2019b4b425a8b130423f35c4691ebed465a335d7c6b"
+  },
+  {
+    "name": "browse",
+    "description": "Fast headless browser for QA testing and site dogfooding. Navigate any URL, interact with elements, verify page state, diff before/after actions, take annotated screenshots, check responsive layouts, test forms and uploads, handle dialogs, and assert element states. ~100ms per command. Use when you need to test a feature, verify a deployment, dogfood a user flow, or file a bug with evidence. Use when asked to \"open in browser\", \"test the site\", \"take a screenshot\", or \"dogfood this\".",
+    "path": "browse",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "2a75b85be41c435c1bfed657dc15309cdebb055a2fffa2828c1d1558ca327d3d"
+  },
+  {
+    "name": "canary",
+    "description": "Post-deploy canary monitoring. Watches the live app for console errors, performance regressions, and page failures using the browse daemon. Takes periodic screenshots, compares against pre-deploy baselines, and alerts on anomalies. Use when: \"monitor deploy\", \"canary\", \"post-deploy check\", \"watch production\", \"verify deploy\".",
+    "path": "canary",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "ef50efaf2fe53c84919c9dde607ba4ac3ce4202d9a0805de2bf0e127fa35d0b1"
+  },
+  {
+    "name": "capitoltrades-politician-tracker",
+    "description": "Scrape a politician's stock trading disclosures from CapitolTrades.com and report which trades are newly disclosed since the last check. Use this whenever the user wants to track, monitor, or check a member of Congress's stock trades \u2014 phrases like \"what is [politician] trading\", \"track [senator/rep]'s trades\", \"check CapitolTrades for X\", \"any new disclosures from [politician]\", or when given a capitoltrades.com/politicians/ID URL. Also use this to set up a recurring daily/weekly trade-tracking routine for a politician (pair with the `schedule` skill). Works for any politician on CapitolTrades, not just one specific person.",
+    "path": "capitoltrades-politician-tracker",
+    "sources": [],
+    "origin": null,
+    "skill_sha256": "259f340b8956cd6803a83ab48125c24dfcd516adc6a7435f89ca8466a8f0ff11"
+  },
+  {
+    "name": "captions-overlay",
+    "description": "Overlay doctrine for the embedded-captions workflow \u2014 the caption MODEL (drop / rail / embed) and the rule that captions are an OVERLAY composited on top of the film, never a reserved bottom band you shift content up to avoid. Load when adding captions/subtitles to a talking-head or launch video, when deciding whether a phrase should be dropped, ride the verbatim rail, or be promoted to a scarce embedded climax, when laying out a composition that will carry captions (do NOT reserve a keep-out band), or when centering a composition on the true frame center under captions. Quotes the rail+embed model from embedded-captions and constraint #13 (captions overlay, keep-out band retired) from the product-launch-video scene agent. Applies ON TOP of embedded-captions.",
+    "path": "captions-overlay",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "84cf9826a9782b394ae774397f1f7deeb515585a3c93e87f6292ab00e4e4e438"
+  },
+  {
+    "name": "careful",
+    "description": "Safety guardrails for destructive commands. Warns before rm -rf, DROP TABLE, force-push, git reset --hard, kubectl delete, and similar destructive operations. User can override each warning. Use when touching prod, debugging live systems, or working in a shared environment. Use when asked to \"be careful\", \"safety mode\", \"prod mode\", or \"careful mode\".",
+    "path": "careful",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "4b48da7ceb63a9e8d04e0d7830c1f4478b2cd18a566269769f686ae2f80e940e"
+  },
+  {
+    "name": "changelog-video",
+    "description": "Turn a weekly changelog .md into a finished branded changelog video (square 1080, ~45-60s, Annie VO, animated brand background, mock-UI visualizations, lowkey captions). Use when the user provides a changelog/digest markdown and wants the weekly video, or says \"changelog video\". Self-contained \u2014 fonts, background, lexicon, and scripts ship in this skill.",
+    "path": "changelog-video",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "b26c2a1671f5c5de7d80509dc7c8b77a9839edff9035b15edd84318acd37106a"
+  },
+  {
+    "name": "claude-code",
+    "description": "Delegate coding to Claude Code CLI (features, PRs).",
+    "path": "claude-code",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "db2816bdfcd89b34c2186941f262822bdf855c54afce7b367d0c9b5cee29422b"
+  },
+  {
+    "name": "claude-design",
+    "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+    "path": "claude-design",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "297ea9025b2401e96cb6d960170ba571754e592f37e141a0358cb0783166712c"
+  },
+  {
+    "name": "codebase-inspection",
+    "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+    "path": "codebase-inspection",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "949309a39ea3c9407ad486f7c81f9c696d1458e1ead8ef3f9d5a9ccb44084ee0"
+  },
+  {
+    "name": "codex",
+    "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+    "path": "codex",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "b5d6a1d1cd325279a8a620eac01a689f0ef358c17e7f980dbf61a59c5e203bce"
+  },
+  {
+    "name": "colorize",
+    "description": "Add strategic color to features that are too monochromatic or lack visual interest. Makes interfaces more engaging and expressive.",
+    "path": "colorize",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity"
+    ],
+    "origin": "https://github.com/pbakaus/impeccable/tree/main/source/skills/colorize",
+    "skill_sha256": "80bbe659edf7ef03292829b0c748172b6ecaa46a813a690fb7ae338d238a60a0"
+  },
+  {
+    "name": "comfyui",
+    "description": "Generate images, video, and audio via diffusion workflows.",
+    "path": "comfyui",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "2eb4409dbc0bbe4a0c1c84817f900281fa8fa5ee2ed77ed80d5a4dbb85e28b59"
+  },
+  {
+    "name": "competitor-alternatives",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.",
+    "path": "competitor-alternatives",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "50d9b99ac71d7b4bbdf168d5c28abef566a97da6f1decb2951e3d4d2574c41f4"
+  },
+  {
+    "name": "competitor-news-monitor",
+    "description": "Watch named companies for material news; cited digests.",
+    "path": "competitor-news-monitor",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "1d6ef416d2a5b015df6309764ae65a8fdcb7f14e09d3a5678ce78b8cc8198798"
+  },
+  {
+    "name": "computer-use",
+    "description": "Drive the desktop in the background without stealing focus.",
+    "path": "computer-use",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "907351af3903fbbf2ea6150fd34da6c56072e8bb4d16911fa9a635bcf2e25c76"
+  },
+  {
+    "name": "connect-chrome",
+    "description": "Launch real Chrome controlled by gstack with the Side Panel extension auto-loaded. One command: connects Claude to a visible Chrome window where you can watch every action in real time. The extension shows a live activity feed in the Side Panel. Use when asked to \"connect chrome\", \"open chrome\", \"real browser\", \"launch chrome\", \"side panel\", or \"control my browser\".",
+    "path": "connect-chrome",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "d1dbf469aa24f683d077259e75aa75e1f4528e5f529b228908d31c9c75a19994"
+  },
+  {
+    "name": "content-cascade",
+    "description": "Generate blog post, Twitter thread, and LinkedIn post from a YouTube video. Fetches transcript, generates all three content pieces following your voice/style guidelines, and optionally saves as drafts to Supabase. Trigger on phrases like 'generate content for this video', 'content cascade for', 'write a blog post from my video', 'create content from YouTube', 'run content cascade on my latest video', or any request to turn a YouTube video into blog/social content.",
+    "path": "content-cascade",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "ec5b49d68f6e4095e3a1e6f2cf9489822d33feb900701e36f0c4789a6f747890"
+  },
+  {
+    "name": "context7-mcp",
+    "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of specific frameworks like React, Vue, Next.js, Prisma, Supabase, etc.",
+    "path": "context7-mcp",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity"
+    ],
+    "origin": "https://github.com/upstash/context7/tree/master/skills/context7-mcp",
+    "skill_sha256": "6f07fd4d6cbf96c00c66ef859c2981efb0795315069f55af30c0ae4f28b77690"
+  },
+  {
+    "name": "copy-editing",
+    "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.",
+    "path": "copy-editing",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "f0bf068d14ed3d5fcf13961e7e0de78374663e38255253cad13113e5e66c8bd2"
+  },
+  {
+    "name": "copywriting",
+    "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro.",
+    "path": "copywriting",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "5b3ea76961e8de82f00083569f4ef275058afb70bb301a9153dd80f73837b18e"
+  },
+  {
+    "name": "create-chapter-transitions",
+    "description": "Create short, polished chapter or section transition cards for videos, especially reference-matched kinetic typography with crisp live text, staged typing/reveal effects, coordinated sound design, and backgrounds that match an existing edit. Use when asked to make, recreate, revise, render, or insert a chapter transition, title card, section bumper, or interstitial between video scenes in HyperFrames or Borumi.",
+    "path": "create-chapter-transitions",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/create-chapter-transitions",
+    "skill_sha256": "be8d2467260d6188ae9684b820bf12eeaab15fda209cee494f062422670b23b9"
+  },
+  {
+    "name": "cso",
+    "description": "Chief Security Officer mode. Infrastructure-first security audit: secrets archaeology, dependency supply chain, CI/CD pipeline security, LLM/AI security, skill supply chain scanning, plus OWASP Top 10, STRIDE threat modeling, and active verification. Two modes: daily (zero-noise, 8/10 confidence gate) and comprehensive (monthly deep scan, 2/10 bar). Trend tracking across audit runs. Use when: \"security audit\", \"threat model\", \"pentest review\", \"OWASP\", \"CSO review\".",
+    "path": "cso",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "f25d8ae744b1ee9ef5441d9a53ff54f5c94d7798294b98317c2776e93559a284"
+  },
+  {
+    "name": "cut-the-curve",
+    "description": "The technique catalog: five velocity-matched SEAMS (zoom-through, INVERSE zoom-through, cut-the-curve, waterfall cut, rack-focus blur-cut) plus the two in-scene techniques \u2014 waterfall ENTRY (staggered arrival cascades for title cards / segment openers) and the nudge curve (slow-fast-slow three-phase group slides). Covers partial-travel (~12% of frame) velocity matching via mirrored power4 eases, the Z scale-sign rule, size-scaled blur (10px text / 18-20px full-frame), word-by-word staggered cuts, cascade pacing by element weight, and the 10/65/25 slide ratio. Read before authoring any transition, text-beat handoff, kinetic text entry, or group reposition. [depth, zoom, inverse-zoom, scale-sign, mirrored-zoom, rack-focus, pacing, velocity, cut-the-curve, waterfall, stagger, cascade, kinetic-text, title-card, segment-opener, nudge, slide, easing, group-motion, z-depth, motion-graphics, cinematic, transition, blur, directional-continuity]",
+    "path": "cut-the-curve",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "dd08a1fedca9701b685681aec7c34c0f00de3261dae7c5fdf378537ea2c7df25"
+  },
+  {
+    "name": "delegate-task",
+    "description": "Delegate tasks to OpenSpace \u2014 a full-stack autonomous worker for coding, DevOps, web research, and desktop automation, backed by an extensive MCP tool and skill library. Skills auto-improve through use, reducing token consumption over time. A cloud community lets agents share and collectively evolve reusable skills.",
+    "path": "delegate-task",
+    "sources": [
+      "Shared"
+    ],
+    "origin": "https://github.com/Samin12/life-os",
+    "skill_sha256": "0ae9810e658139c871439a36ef65d689f27e9959e0bc0460725be89662963e69"
+  },
+  {
+    "name": "deploy-qm",
+    "description": "Deploy the QM package from an organization-owned repository into Fly.io or AWS, onboard an administrator, configure connectors, and optionally activate Slack.",
+    "path": "deploy-qm",
+    "sources": [
+      "Testing Codex"
+    ],
+    "origin": "https://github.com/yc-software/qm",
+    "skill_sha256": "5a929cfb88dd60ee0f1bbdfb401f24c66a205497b5871b591f1664998785785a"
+  },
+  {
+    "name": "design-consultation",
+    "description": "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spacing, motion), and generates font+color preview pages. Creates DESIGN.md as your project's design source of truth. For existing sites, use /plan-design-review to infer the system instead. Use when asked to \"design system\", \"brand guidelines\", or \"create DESIGN.md\". Proactively suggest when starting a new project's UI with no existing design system or DESIGN.md.",
+    "path": "design-consultation",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "0d9998db8804a422ad98d13c97d41dda141142eb83717bb32bcc1820ab0ebf63"
+  },
+  {
+    "name": "design-md",
+    "description": "Author/validate/export Google's DESIGN.md token spec files.",
+    "path": "design-md",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "02f596d40ec670b4c60b1890534097764b6896f554cf62bd773665ace7093a97"
+  },
+  {
+    "name": "design-review",
+    "description": "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions \u2014 then fixes them. Iteratively fixes issues in source code, committing each fix atomically and re-verifying with before/after screenshots. For plan-mode design review (before implementation), use /plan-design-review. Use when asked to \"audit the design\", \"visual QA\", \"check if it looks good\", or \"design polish\". Proactively suggest when the user mentions visual inconsistencies or wants to polish the look of a live site.",
+    "path": "design-review",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "453408fe46f33f155563b4aebd4d865d0a96454a085ba28c26dee5081dbffb04"
+  },
+  {
+    "name": "design-shotgun",
+    "description": "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. Standalone design exploration you can run anytime. Use when: \"explore designs\", \"show me options\", \"design variants\", \"visual brainstorm\", or \"I don't like how this looks\". Proactively suggest when the user describes a UI feature but hasn't seen what it could look like.",
+    "path": "design-shotgun",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "f4f7a153dc2bf1d0f45f2f89ebf91a2789a3a437593a2f87a00d269f3ddc5703"
+  },
+  {
+    "name": "dev-instance",
+    "description": "Run the current worktree as a production-shaped local dev instance \u2014 core, Slack, web UI, admin, portal, on a real Pi LLM + Postgres \u2014 reachable in Slack as your own bot. Each developer uses their own set of Slack apps from their own machine's pool store, so many worktrees (yours and a teammate's) can run reachable at once without colliding. Use when asked to /dev-instance, \"spin this up so I can QA it in Slack\", or \"let me test your branch end to end\".",
+    "path": "dev-instance",
+    "sources": [
+      "Testing Claude",
+      "Testing Codex"
+    ],
+    "origin": "https://github.com/yc-software/qm",
+    "skill_sha256": "7ac26e891bf4dc00a9ccb11d10f7476b4605ea5d95e30a7bab55148818441c36"
+  },
+  {
+    "name": "document-release",
+    "description": "Post-ship documentation update. Reads all project docs, cross-references the diff, updates README/ARCHITECTURE/CONTRIBUTING/CLAUDE.md to match what shipped, polishes CHANGELOG voice, cleans up TODOS, and optionally bumps VERSION. Use when asked to \"update the docs\", \"sync documentation\", or \"post-ship docs\". Proactively suggest after a PR is merged or code is shipped.",
+    "path": "document-release",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "4e189ac20389d414b0d8cd6a9448f55c9fb302b9a55970f9a2b6827c1f293f47"
+  },
+  {
+    "name": "document-to-action-items",
+    "description": "Extract cited obligations, deadlines, tasks from documents.",
+    "path": "document-to-action-items",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d52882e8584b03bea585101581e3ca91f553d6d28921737870445d7af9490fed"
+  },
+  {
+    "name": "docx",
+    "description": "Create, read, edit, template, and review Word .docx files.",
+    "path": "docx",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "a6f83e1e713885b435cf9416dab55f824e32278f3a0cf25417baf80d0953f778"
+  },
+  {
+    "name": "dogfood",
+    "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
+    "path": "dogfood",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "7bb6f7328242c6ea93471fd893ea55b2192fecbadf3410a20a99cace7665066d"
+  },
+  {
+    "name": "email-inbox-triage",
+    "description": "Triage an inbox: prioritize threads, draft replies safely.",
+    "path": "email-inbox-triage",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "79fa2d7d40738c1f8b5b014c42cbf136be13fbb080638e3faff60f80272854b6"
+  },
+  {
+    "name": "email-sequence",
+    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or \"lifecycle emails.\" For in-app onboarding, see onboarding-cro.",
+    "path": "email-sequence",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "3db17b4bfcb1bbcf1487891b95391561db7f5a2ca6c397392d64c0aea7abd00e"
+  },
+  {
+    "name": "embedded-captions",
+    "description": "Add captions or subtitles to an existing single-subject talking-head video without editing the footage. Use for plain verbatim captions, cinematic captions embedded behind the subject, VFX captions, \u201c\u70b8/\u7279\u6548/\u9177\u70ab\u5b57\u5e55,\u201d or a named identity from the 35-style catalog. Route by visual identity, not by backend engine. The quiet `anchor` rail is the default; embed every word only when the user explicitly wants a fully cinematic treatment. The workflow runs locally end to end, including transcription and subject matting; split multi-shot footage before applying it.",
+    "path": "embedded-captions",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "775989c4ddbabfbb13f814242b33a9b3fa758bf29995c54468cd6bde4f5c1fd0"
+  },
+  {
+    "name": "embedded-captions-video-editor-agents",
+    "description": "Add captions or subtitles to an existing single-subject talking-head video without editing the footage. Use for plain verbatim captions, cinematic captions embedded behind the subject, VFX captions, \u201c\u70b8/\u7279\u6548/\u9177\u70ab\u5b57\u5e55,\u201d or a named identity from the 36-style catalog. Route by visual identity, not by backend engine. The quiet `anchor` rail is the default; embed every word only when the user explicitly wants a fully cinematic treatment. The workflow runs locally end to end, including transcription and subject matting; split multi-shot footage before applying it.",
+    "path": "embedded-captions-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "d89408ce775c9d5f73333ee26047f15d4d317580d16a2f4d1149ba55f93b1a42"
+  },
+  {
+    "name": "evaluating-llms-harness",
+    "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+    "path": "evaluating-llms-harness",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "c3a52a49e3a5bc071af805a10785f289da244f4643c6e7c7c764182ed018007f"
+  },
+  {
+    "name": "excalidraw",
+    "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+    "path": "excalidraw",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "82c71a9edf4aab35f2357fd0c8fb1cbf3ab640a852a368f95d3955378a7ac65c"
+  },
+  {
+    "name": "faceless-explainer",
+    "description": "Turn arbitrary text \u2014 an article, notes, a topic, a brief \u2014 into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video \u2014 promo or tour). Unclear \u2192 /hyperframes.",
+    "path": "faceless-explainer",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "9243ecde0ad20e729c313913c1543d3e9cbecdf8063d05721b1caafa18a5c7d0"
+  },
+  {
+    "name": "faceless-explainer-video-editor-agents",
+    "description": "Turn arbitrary text \u2014 an article, notes, a topic, a brief \u2014 into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video \u2014 promo or tour). Unclear \u2192 /hyperframes.",
+    "path": "faceless-explainer-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "a580526c657076261f358ceee9df530379a292bd3eef8f4543b6205e076705b7"
+  },
+  {
+    "name": "figma",
+    "description": "Import Figma content into a HyperFrames composition \u2014 rendered assets, brand tokens, components, storyboard sections \u2192 reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export. Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
+    "path": "figma",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "9daacf9d7bffb29ef077a35a8ed9b19e388a6152bbcb5ef302901ff3452b30e3"
+  },
+  {
+    "name": "figma-video-editor-agents",
+    "description": "Import Figma content into a HyperFrames composition \u2014 rendered assets, brand tokens, components, storyboard sections \u2192 reconstructed motion (frames read as states, not slides) (REST/CLI), Figma Motion animations (MCP), and shaders (MCP source / native export). Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
+    "path": "figma-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "191b9dacbae4aec57a8d3e89a448e5484a8864ade29105af7c4c1d1f7eb5502b"
+  },
+  {
+    "name": "findmy",
+    "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+    "path": "findmy",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "b800317310313ca64cb26c2adceeba7f950f184b481ec2ef3164918afefeeedb"
+  },
+  {
+    "name": "form-cro",
+    "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+    "path": "form-cro",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "0d41e83de9863a51e7fa420766798387556b427656a1c18bbb3505ff52b8e7bf"
+  },
+  {
+    "name": "free-tool-strategy",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing \u2014 useful for founders and technical marketers.",
+    "path": "free-tool-strategy",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "afd05058a2b0a4df3f32db31f01230e97008d0838d20efb7764effa8677db541"
+  },
+  {
+    "name": "freeze",
+    "description": "Restrict file edits to a specific directory for the session. Blocks Edit and Write outside the allowed path. Use when debugging to prevent accidentally \"fixing\" unrelated code, or when you want to scope changes to one module. Use when asked to \"freeze\", \"restrict edits\", \"only edit this folder\", or \"lock down edits\".",
+    "path": "freeze",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "29abf064cdd30eeed47652dcfb5a9e0ca3053f984fe201768761c0d93399ee54"
+  },
+  {
+    "name": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+    "path": "frontend-design",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity"
+    ],
+    "origin": "https://github.com/pbakaus/impeccable/tree/main/source/skills/frontend-design",
+    "skill_sha256": "927772254aba80c426b38fd6835c487e4855b9b830214485b87e6140b0a8f462"
+  },
+  {
+    "name": "general-video",
+    "description": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+    "path": "general-video",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "c9d83551e788d618d57db7a1433b0b2342963252e549720cc726f16fd62a75a3"
+  },
+  {
+    "name": "general-video-video-editor-agents",
+    "description": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+    "path": "general-video-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "f093bd9e56212031136fd05f435d6a9ecd9ee2e22f5d91d2cf56cd02543db56b"
+  },
+  {
+    "name": "generate-ads",
+    "description": "E-Commerce Ad Generator",
+    "path": "generate-ads",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "59edacb52f8a81a217559dd6913aa02fb7a3e048d56cef8006096167cea1ee78"
+  },
+  {
+    "name": "gif-search",
+    "description": "Search/download GIFs from Tenor via curl + jq.",
+    "path": "gif-search",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "19e50e28becb9f5d0b169fd140646e8fd10e2c5cfa2d46cec34952206f29abd2"
+  },
+  {
+    "name": "github-auth",
+    "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+    "path": "github-auth",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "03d6014af767d794661f1698d9bcb36b9c901bb8876acc161d7385d386f9137d"
+  },
+  {
+    "name": "github-code-review",
+    "description": "Review PRs: diffs, inline comments via gh or REST.",
+    "path": "github-code-review",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "56ece8635480f5b5a67ee0a87b0984aaf173b3f35ddd6116344732417b4eb312"
+  },
+  {
+    "name": "github-issue-to-pr",
+    "description": "Carry a GitHub issue to a verified PR with honest CI state.",
+    "path": "github-issue-to-pr",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "3a36a01a2b695c7249f1bb07d84fea84bda66ab20d6f314e5d9c7baf22ecb69a"
+  },
+  {
+    "name": "github-issues",
+    "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+    "path": "github-issues",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "9ae831ab9ab7ff2d3ae0cfd077d791fa2d677782d2165230648a69110efa1a10"
+  },
+  {
+    "name": "github-pr-workflow",
+    "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+    "path": "github-pr-workflow",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "ed5fa70075abbbeb4ab412efffb88f1284dac230b44f480aee0246fbcea6674b"
+  },
+  {
+    "name": "github-repo-management",
+    "description": "Clone/create/fork repos; manage remotes, releases.",
+    "path": "github-repo-management",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "537ec7362895281b434db9c88309bd98fcdbed5cbcfc2b905f8a0358f6adb4bd"
+  },
+  {
+    "name": "google-workspace",
+    "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+    "path": "google-workspace",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "a80bd572b8ee6b62beee350e4f5fbe0e8d6ff3e28bb18e99185b46e54f56c897"
+  },
+  {
+    "name": "grounded-citations",
+    "description": "Ground answers and documents in cited, verifiable sources.",
+    "path": "grounded-citations",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "946154173108e9500fd1a4c1aee7fbd2459168e0b52d2042f68543396180b0cd"
+  },
+  {
+    "name": "gstack",
+    "description": "Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with elements, verify state, diff before/after, take annotated screenshots, test responsive layouts, forms, uploads, dialogs, and capture bug evidence. Use when asked to open or test a site, verify a deployment, dogfood a user flow, or file a bug with screenshots.",
+    "path": "gstack",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "10cec8755e963b3fb19da59b72eb14d6df82426e59929b41d789dc07e998abcc"
+  },
+  {
+    "name": "gstack-upgrade",
+    "description": "Upgrade gstack to the latest version. Detects global vs vendored install, runs the upgrade, and shows what's new. Use when asked to \"upgrade gstack\", \"update gstack\", or \"get latest version\".",
+    "path": "gstack-upgrade",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "64eea8470d5d2a69481af52eff60a7f9bea62994dd926c14f81aff1f1a4ff826"
+  },
+  {
+    "name": "guard",
+    "description": "Full safety mode: destructive command warnings + directory-scoped edits. Combines /careful (warns before rm -rf, DROP TABLE, force-push, etc.) with /freeze (blocks edits outside a specified directory). Use for maximum safety when touching prod or debugging live systems. Use when asked to \"guard mode\", \"full safety\", \"lock it down\", or \"maximum safety\".",
+    "path": "guard",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "55bce1d1787c3cfb88b17b40508348cb93a969a7b7d357960255512dc40fda6f"
+  },
+  {
+    "name": "heartbeat",
+    "description": "This skill should be used when the user asks to \"run a heartbeat\", \"run the agent loop\", \"process Linear issues\", \"check for work\", or runs the /heartbeat command. Executes the WoterClip heartbeat \u2014 picks up Linear issues, resolves personas, does work, and reports back.",
+    "path": "heartbeat",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "b013e38344ed9b87e1b49719b2553e24d5389fc41a17ade01c8ea09572848650"
+  },
+  {
+    "name": "heartbeat-log",
+    "description": "This skill should be used when the user asks to \"show heartbeat log\", \"heartbeat history\", \"what has woterclip done\", \"show agent activity\", \"summarize heartbeats\", or wants to analyze past heartbeat activity. Parses heartbeat-log.jsonl for summaries and analytics.",
+    "path": "heartbeat-log",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "150e33749cfb2a6b894f65fecd8b4620b1161fb8d1d8c323262d28dcf7372148"
+  },
+  {
+    "name": "heartmula",
+    "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+    "path": "heartmula",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "0dde3e010ac8f3f43f262cbb6a4f5a873335d99ccf06c5ff74bf79e2e37c7275"
+  },
+  {
+    "name": "hermes-agent",
+    "description": "Use, configure, theme, extend, and orchestrate Hermes Agent.",
+    "path": "hermes-agent",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "a8d6b322970d97175b25b0a93e91bf9c39f038cc013c3e5cd220fbbddbfea50f"
+  },
+  {
+    "name": "hermes-agent-skill-authoring",
+    "description": "Author in-repo SKILL.md files: frontmatter and structure.",
+    "path": "hermes-agent-skill-authoring",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "7bb206e1566599f68eb37e2ca6ae79a502eb49bb380b257c728c7762aec6562c"
+  },
+  {
+    "name": "hermes-desktop-plugins",
+    "description": "Write desktop app plugins that add UI panes and commands.",
+    "path": "hermes-desktop-plugins",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "6c90376f2de6c29ef05a70f8d3366e517b56b7b3545973bdf9f2d591dc2ff14f"
+  },
+  {
+    "name": "himalaya",
+    "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
+    "path": "himalaya",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "dc246a42229614536723c3973741914fd1ed09dd018a6b7ea959924471e6ba59"
+  },
+  {
+    "name": "hooks",
+    "description": "Generate YouTube video hooks using the Kallaway desire-based framework. Produces Three Hook Alignment (visual + spoken + text), applies the Four Commandments, maps to core desires, and scores each hook. Trigger on phrases like 'write a hook for', 'hook ideas for my video', 'help me with the intro', 'generate hooks', 'write the opening for', or any request for YouTube video hooks, intros, or opening lines.",
+    "path": "hooks",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "7c21d2abbf0d42c5f4634b6461648a6817f69e50b8e8e0f68568914674b60d62"
+  },
+  {
+    "name": "huggingface-hub",
+    "description": "HuggingFace hf CLI: search/download/upload models, datasets.",
+    "path": "huggingface-hub",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "31ca87ee4d7c8c1239facaabf4b05b09b77366a50ec45d2ab68b70a5b78199fc"
+  },
+  {
+    "name": "humanizer",
+    "description": "Humanize text: strip AI-isms and add real voice.",
+    "path": "humanizer",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "e9fe648eeb5b3d3ac1744e9e1fc4e7d802919597ec168299fa8d6e423fa325a9"
+  },
+  {
+    "name": "hyperframes",
+    "description": "Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition. Also use it to inspect, diagnose, validate, preview, publish, or batch-render an existing HyperFrames project. Inputs may be a website URL, GitHub PR, Figma design or URL, text or brief, existing footage, or music. It resumes project state, captures intent when applicable, selects and installs the owning workflow, and routes domain capabilities. HyperFrames is the default output framework unless the user explicitly chooses another framework for the deliverable or asks only to record a browser session.",
+    "path": "hyperframes",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "8f4b83db393220b722513c53fcff482619766092ab61b8477dababb7618b65a8"
+  },
+  {
+    "name": "hyperframes-animation",
+    "description": "All animation knowledge for HyperFrames \u2014 atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). Also covers auditing an existing composition's choreography (animation map) and 24 named text-animation effects. HyperFrames-native: single paused timeline, seek-safe, deterministic.",
+    "path": "hyperframes-animation",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode",
+      "Video Editor Agents"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "69a9903796e65c66edbe9ec9621eca8953c7cc2a93a718687306891daf0463d4"
+  },
+  {
+    "name": "hyperframes-audio",
+    "description": "Use when audio already placed in a HyperFrames composition needs to be mixed: a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), or automation envelopes drawn on a track's volume or any effect parameter. Don't use for sourcing or generating audio \u2014 finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
+    "path": "hyperframes-audio",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d580da47f7fde81972ded1b1e19ad87a566b9855aeb593ee15083bd270769ba1"
+  },
+  {
+    "name": "hyperframes-cli",
+    "description": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
+    "path": "hyperframes-cli",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "c81cddd4ac1a9d70797f5c033f95dbb084ed986e255f4ecd66d54f93f12752c4"
+  },
+  {
+    "name": "hyperframes-cli-video-editor-agents",
+    "description": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
+    "path": "hyperframes-cli-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "a4d67a5ca69436b9f7018f477334719f9370119be7910a9dc1392f2155283750"
+  },
+  {
+    "name": "hyperframes-core",
+    "description": "The HyperFrames composition contract \u2014 build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Also covers Tailwind projects and the STORYBOARD.md / SCRIPT.md plan formats. Read before writing composition HTML.",
+    "path": "hyperframes-core",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "4b710ea43ded213525c1101bb39116898085ec8031f1d28a2a1e0ea39aa54d68"
+  },
+  {
+    "name": "hyperframes-core-video-editor-agents",
+    "description": "The HyperFrames composition contract \u2014 build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Also covers Tailwind projects and the STORYBOARD.md / SCRIPT.md plan formats. Read before writing composition HTML.",
+    "path": "hyperframes-core-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "5d833ec476136c0ed965e7cb0f8d52e8877a68d89a56c459e80681672f1afdad"
+  },
+  {
+    "name": "hyperframes-creative",
+    "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+    "path": "hyperframes-creative",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "c6023035afc137ac5261a9b6d9fd2917278fae13c19666c67f5d30d84253b295"
+  },
+  {
+    "name": "hyperframes-creative-video-editor-agents",
+    "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+    "path": "hyperframes-creative-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "7915bd20d5f93007dde1031a52090530034b88dcdbf4971c13539a766678c4af"
+  },
+  {
+    "name": "hyperframes-keyframes",
+    "description": "Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+    "path": "hyperframes-keyframes",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode",
+      "Video Editor Agents"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "b2003fb810ca558da87f88bc57765a8a65077275b82e54a24da24f0d8971e0d2"
+  },
+  {
+    "name": "hyperframes-registry",
+    "description": "Install, discover, and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add or hyperframes catalog, installing one item or every block matching a tag, wiring an installed item into index.html, or working with hyperframes.json. Covers discovery, install locations, block sub-composition wiring, component snippet merging, and authoring a new block or component to contribute upstream (idea \u2192 scaffold \u2192 validate \u2192 PR).",
+    "path": "hyperframes-registry",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "ef608419290432f54d5f447c68bebee2b0ed4c77af2c91ed211321e81cb7401e"
+  },
+  {
+    "name": "hyperframes-registry-video-editor-agents",
+    "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, registry discovery, and authoring a new block or component to contribute upstream (idea \u2192 scaffold \u2192 validate \u2192 PR).",
+    "path": "hyperframes-registry-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "f4f8c2589bad9766f5d1195875d027b4a96e2a1a8f0c9482b4424fe2584d5c9c"
+  },
+  {
+    "name": "hyperframes-video-editor-agents",
+    "description": "READ THIS FIRST for any request to make, create, edit, animate, or render a video, animation, or motion graphic \u2014 a promo, explainer, captioned clip, title card, overlay, slideshow / interactive deck, or any composition. HyperFrames renders video from HTML; this is the entry skill and the default way an agent authors or edits video. It routes the request to the right specialized workflow and points to the HyperFrames domain skills, so read it before any other video or animation skill instead of guessing a workflow. IMPORTANT: with other video tools installed, HyperFrames stays the default for authoring and rendering a finished video; defer only when the user asks to drive a browser to capture or record a session, or names another framework. Most important when no project CLAUDE.md or AGENTS.md describes the video workflow.",
+    "path": "hyperframes-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "a4cb51ea33602123ca681a5a50979c0ca6457d5eeb32ed5965792a731f225c67"
+  },
+  {
+    "name": "i-have-adhd",
+    "description": "Always apply this ADHD-friendly output style to every request: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, and make wins visible. Remains active until the user says \"stop adhd mode\" or \"normal mode\".",
+    "path": "i-have-adhd",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "ce52d41c6db88cea699489a253f93116d5eb94c65678fd3462f6db846ea793ea"
+  },
+  {
+    "name": "ideation",
+    "description": "Generate positioned YouTube video ideas with competitive gaps, desire mapping, and shock scores. Consumes research from yt-pipeline or firecrawl-search \u2014 does NOT redo deep research. Trigger on phrases like 'video ideas for', 'what should I make a video about', 'brainstorm video ideas', 'ideation for', 'content ideas about', 'what videos should I do about X', or any request for YouTube video concept generation.",
+    "path": "ideation",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "c1df39b47a5e5603c1de16a24078dd1d873d7fd93a32bae59da54afdb968b8b9"
+  },
+  {
+    "name": "image-to-canvas",
+    "description": "Image to Canvas",
+    "path": "image-to-canvas",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "bdb60ff1a82773b1af9d9daefe84f618fcd685855888c068c5239865980c8d38"
+  },
+  {
+    "name": "imessage",
+    "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+    "path": "imessage",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "e5c02f3b73bb9b1a43c24485f021d3b8107affb35a16f945b04ecd472605fdc3"
+  },
+  {
+    "name": "inspecting-hermes-desktop-dom",
+    "description": "Read the live Hermes desktop DOM/CSS over CDP.",
+    "path": "inspecting-hermes-desktop-dom",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "e914f100ed1e8e22b6c1054bc9ef035298590ef8caa6873f2017b3e48c0409a2"
+  },
+  {
+    "name": "intro-editor",
+    "description": "Turn raw talking-head footage into an engaging, b-roll-rich edited video intro in Samin's signature style (cold-open proof montage, screen-recording inserts, stat graphics, illustrated story scenes, agenda cards, PiP continuity). Use this whenever the user gives a video and asks to edit the intro, add b-roll, \"make it engaging\", gather clips for an intro, or turn bare-camera footage into a finished intro \u2014 even if they don't say \"intro\" explicitly. Also use when the user asks to analyze a video's editing style for replication.",
+    "path": "intro-editor",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "59a4b7d84bf1451835b37d9f5804bf02e4da2225be804de9e37816e3327c53c7"
+  },
+  {
+    "name": "investigate",
+    "description": "Systematic debugging with root cause investigation. Four phases: investigate, analyze, hypothesize, implement. Iron Law: no fixes without root cause. Use when asked to \"debug this\", \"fix this bug\", \"why is this broken\", \"investigate this error\", or \"root cause analysis\". Proactively suggest when the user reports errors, unexpected behavior, or is troubleshooting why something stopped working.",
+    "path": "investigate",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "01511493f2c01a097fec12b10b77673529ace58199edf964f3d02e011f179d75"
+  },
+  {
+    "name": "jupyter-live-kernel",
+    "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+    "path": "jupyter-live-kernel",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "5a7c58c30b56cdde24d306f1e44e756248d4ffd2403e5c58cb65cf71598666d8"
+  },
+  {
+    "name": "land-and-deploy",
+    "description": "Land and deploy workflow. Merges the PR, waits for CI and deploy, verifies production health via canary checks. Takes over after /ship creates the PR. Use when: \"merge\", \"land\", \"deploy\", \"merge and verify\", \"land it\", \"ship it to production\".",
+    "path": "land-and-deploy",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "ba7d28cf0d30cd128252c3fbd575199446406eb959d79a6c045fc72733bef5cb"
+  },
+  {
+    "name": "launch-strategy",
+    "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.",
+    "path": "launch-strategy",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d"
+  },
+  {
+    "name": "linkedin-carousel",
+    "description": "LinkedIn Carousel Post via PDF",
+    "path": "linkedin-carousel",
+    "sources": [],
+    "origin": null,
+    "skill_sha256": "91644f846187c9d7053b06a686f5a621d99d86b7dbff48a152327521f1f97728"
+  },
+  {
+    "name": "linkedin-lead-magnet-video",
+    "description": "LinkedIn Lead Magnet Video Generator",
+    "path": "linkedin-lead-magnet-video",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "d09efa846b0c36f70c7424ff897858bbcdc5057f6faae6d723e9a69c82a70515"
+  },
+  {
+    "name": "llama-cpp",
+    "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+    "path": "llama-cpp",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d6be969453d6c21fa85f0103470ca9414e8491069266fd3b3e18c4af20ed1f06"
+  },
+  {
+    "name": "llm-wiki",
+    "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+    "path": "llm-wiki",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "a16e2542d87766db09d248f1c5653743f1cdd9202af775ec77d4d0c49da8e81a"
+  },
+  {
+    "name": "loopy",
+    "description": "Discover, find, compare, audit, repair, adapt, craft, run, debrief, save, and prepare repeatable AI-agent loops for publication. Use when a user asks to analyze code or coding threads for recurring work, find a published loop, interview them to turn a goal into a bounded loop, review a loop for weak checks or unsafe authority, execute a loop with an evidence receipt, learn from completed runs, save or reuse a project loop, or validate and submit a loop to Loop Library.",
+    "path": "loopy",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "fb366c51324a2123f825f59175624bfde57be0274cf98824d7fdfd04755390d5"
+  },
+  {
+    "name": "manim-video",
+    "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
+    "path": "manim-video",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "69ec9292966dfa74a484da2025c610407b919289cfc3136caaf5cfb42733c468"
+  },
+  {
+    "name": "maps",
+    "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+    "path": "maps",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "0486f1a99e2e8ae6cf91ba2eae1e7dff69d212205d0e0916ba509144567b2751"
+  },
+  {
+    "name": "marketing-ideas",
+    "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 140 proven marketing approaches organized by category.",
+    "path": "marketing-ideas",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983"
+  },
+  {
+    "name": "marketing-psychology",
+    "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application.",
+    "path": "marketing-psychology",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "793332c9374bc4c28f23590e01bff5e5730ff5900ef2c8ffbc9ba4337a1a9f5d"
+  },
+  {
+    "name": "media-use",
+    "description": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Also use for vague feedback that real footage looks dark, flat, boring, should feel retro/camcorder/print/ASCII, needs privacy, or needs a media reveal.",
+    "path": "media-use",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "1301ea7cb53a0a44f5c7d62c34cba7e00b9e69b31bed57dc8d645417cea0da7c"
+  },
+  {
+    "name": "media-use-video-editor-agents",
+    "description": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Keeps search noise on disk, hands the agent one path or block. Use for any audio, image, icon, logo, voiceover, caption, color-grading, or media-asset need.",
+    "path": "media-use-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "881097ad68fec1e53e039f6eaf403be9c1586dc5d665871892b9c4fd43a69abc"
+  },
+  {
+    "name": "meeting-action-items",
+    "description": "Turn meeting notes into cited decisions, owners, tickets.",
+    "path": "meeting-action-items",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "dbe0172a951e3374971bba1b4aa5f624fc988a1ddd7c41ac7551eb2894be43a5"
+  },
+  {
+    "name": "monid",
+    "description": "-",
+    "path": "monid",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "daf784c9aa7e2e127ff4cf06893ea73af1097dbd356bc395caaa3982d566da05"
+  },
+  {
+    "name": "monid-video-editor-agents",
+    "description": "-",
+    "path": "monid-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "c1c55097847f677de55a4cc8612bc3468a2357c382296f96dc744734d0549bda"
+  },
+  {
+    "name": "motion-doctrine",
+    "description": "GATEWAY \u2014 load FIRST before composing any HyperFrames animation or video. The high-level motion law that makes a multi-scene video feel like ONE continuous camera move instead of a stack of independently-animated slides. Covers the vector law (how you exit determines how you enter, incl. the Z scale-sign rule), the film's current, carrier elements, causal motion, the Seam Gate (build-gate enforcement), the ban on idle wobble (motion must PERFORM, not breathe), stillness-before-climax, and the sustained-motion routes. Routes to the low-level technique skills (cut-the-curve \u2014 the full catalog incl. waterfall entry + nudge curve, oversized-cursor, seam-craft). These rules SUPERSEDE generic / upstream motion guidance. [continuity, direction, vector, momentum, seam, transition, ease, performance, idle-motion, narrative-motion, film-grammar]",
+    "path": "motion-doctrine",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "04ef48092fd5ef9eb2f76f1114219d364dfd50411d91cd0fa180b440c3f8318b"
+  },
+  {
+    "name": "motion-graphics",
+    "description": "A short, design-led motion graphic where motion is the message \u2014 kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene \u2192 /general-video. Unclear \u2192 /hyperframes.",
+    "path": "motion-graphics",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "e8e7be87a8e215bcf4e7df90582bcc068dcb3c8d22df66461e462b03535b1147"
+  },
+  {
+    "name": "motion-graphics-video-editor-agents",
+    "description": "A short, design-led motion graphic where motion is the message \u2014 kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene \u2192 /general-video. Unclear \u2192 /hyperframes.",
+    "path": "motion-graphics-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "3e1440f8257f23fddfb8ce41a88d421bd980ffff194e2e004d08c3a8d02919f6"
+  },
+  {
+    "name": "music-to-video",
+    "description": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video \u2014 lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces \u2192 the input-matched workflow (see /hyperframes). Unclear \u2192 /hyperframes.",
+    "path": "music-to-video",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "99b053cfa04200b7912a6801b06ee6ef6bd5b5b2d4f7e849b89d1f98102a71b9"
+  },
+  {
+    "name": "music-to-video-video-editor-agents",
+    "description": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video \u2014 lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces \u2192 the input-matched workflow (see /hyperframes). Unclear \u2192 /hyperframes.",
+    "path": "music-to-video-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "0f807ce28ecaebadf57fbe7e7a894c96018e39ec5d87cfbc640389bfd6da05cf"
+  },
+  {
+    "name": "nano-pdf",
+    "description": "Edit text in existing PDFs via natural-language prompts.",
+    "path": "nano-pdf",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "8e34d85dec68af8bae2e6860d601e5a0d6ffd980fc5bd81f38a38a04789c16e5"
+  },
+  {
+    "name": "node-inspect-debugger",
+    "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+    "path": "node-inspect-debugger",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "505a02a35206a0e2bb3a601067edfe29d7b84bab1c708f1c8752464c119a5e9a"
+  },
+  {
+    "name": "notion",
+    "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+    "path": "notion",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "3de1da29dc51300ed71513c10a8875f493c07a8372cc585e8bf1f1b7b98bffed"
+  },
+  {
+    "name": "nvme-offload",
+    "description": "Safely offload completed Downloads items and video files larger than 500 MB from approved Mac folders to the Samin Razer NVME, verify transfers, inspect logs, or troubleshoot the mount-aware automation. Use when the user asks to free Mac storage with the NVMe, move large videos or Downloads to the external drive, run the NVMe offload, or check whether automatic offloading worked.",
+    "path": "nvme-offload",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "dbc98169784e57929720873adbeed375ce7adbf01d1b2104ae15cb2fb44ad0c7"
+  },
+  {
+    "name": "obsidian",
+    "description": "Read, search, create, and edit notes in the Obsidian vault.",
+    "path": "obsidian",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "7a56915eeae177f2982ef7f30436c7352ec3f2f0e4f5089c22f7cf5e17cdb555"
+  },
+  {
+    "name": "ocr-and-documents",
+    "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+    "path": "ocr-and-documents",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "596cdfdfe05d6ba26c08caf8b805417510572f1534872441d73e46472ea9beb1"
+  },
+  {
+    "name": "office-hours",
+    "description": "YC Office Hours \u2014 two modes. Startup mode: six forcing questions that expose demand reality, status quo, desperate specificity, narrowest wedge, observation, and future-fit. Builder mode: design thinking brainstorming for side projects, hackathons, learning, and open source. Saves a design doc. Use when asked to \"brainstorm this\", \"I have an idea\", \"help me think through this\", \"office hours\", or \"is this worth building\". Proactively suggest when the user describes a new product idea or is exploring whether something is worth building \u2014 before any code is written. Use before /plan-ceo-review or /plan-eng-review.",
+    "path": "office-hours",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "44aded2857f42c5d447016d22f5944a1f6d5d2f5270ee31ef4b26d4e3cb6fbce"
+  },
+  {
+    "name": "onboard",
+    "description": "First-run setup for the Content Repurpose System. Walks a creator through connecting their YouTube channel, writing their Voice DNA into the content prompts, and (optionally) wiring up Apify, Supabase, and Twitter keys \u2014 then prints the end-to-end workflow they can run next. Trigger on 'onboard', 'set up the content system', 'set up content repurpose', 'get started with content repurpose', 'configure my channel', or the first time someone tries to use ideation / hooks / outlines / content-cascade / short-form / yt-titles without having configured a channel yet.",
+    "path": "onboard",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "939ae4e303e52df8d49a1a072b7460fcab256ba072f957a2032fe7646e245e81"
+  },
+  {
+    "name": "onboarding-cro",
+    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+    "path": "onboarding-cro",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "c973ee1520d800fb68c39965d6c99526489c834440d7b2c254ab059cb54dab8d"
+  },
+  {
+    "name": "opencode",
+    "description": "Delegate coding to OpenCode CLI (features, PR review).",
+    "path": "opencode",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "ed6c986971961677217af148e512fbc0de5d5f7e8959613f5b5ac1afab4c57b8"
+  },
+  {
+    "name": "openhue",
+    "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+    "path": "openhue",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "079c4deb9738faed07253eb459802faa20c368ec9884e4b99d85e8b08d68071c"
+  },
+  {
+    "name": "outlines",
+    "description": "Generate full YouTube video outlines in your format \u2014 hook, structured body with talking points, visual aid callouts, source citations, time budgets, and production notes. Trigger on phrases like 'outline this video', 'write an outline for', 'structure this video', 'create a video outline', 'help me outline', or any request to plan or structure a YouTube video for recording.",
+    "path": "outlines",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "cf747c038c9a1a570916db2d9dc0076efab1a6c51956faecf419069d0aba9f44"
+  },
+  {
+    "name": "oversized-cursor",
+    "description": "House-style oversized macOS cursor technique for HyperFrames launch videos. Load whenever a scene involves cursors or a pointer-led action, when kicking off a UI scene, when igniting a morph/transition/typing run with a click, or when a scene reads as static, dead, or stale and needs a cheap high-yield source of motion to carry the viewer's eye and segment them out of the stale state. Covers cursor size/look (incl. brand-motif cursors), the off-screen entry law, tip-targeting and the click tap, click-ignites-the-next-beat, and exit / cross-scene handoff.",
+    "path": "oversized-cursor",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "a7fee44865b32f7f4526bfb9cf67c0663233d29fed2524768eb54141d249a0e4"
+  },
+  {
+    "name": "p5js",
+    "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+    "path": "p5js",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "65dfe01e6604e1f304c7a574e4a45d03f9dae81708ccc556f4b5c3cf5d70bdd1"
+  },
+  {
+    "name": "page-cro",
+    "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+    "path": "page-cro",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "ea4ac2ac8400f1853ae386785f63a0a9c445e1c08c981a9f6b734bc7c810cfc9"
+  },
+  {
+    "name": "paid-ads",
+    "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.",
+    "path": "paid-ads",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "0d00d270771f28b74f6243389f73f413fa539612215595757680fa5c95f25b53"
+  },
+  {
+    "name": "paywall-upgrade-cro",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) \u2014 this skill focuses on in-product upgrade moments where the user has already experienced value.",
+    "path": "paywall-upgrade-cro",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "8104b18390db197707ad9b44ec4e68ee8f79326cc9ebb3a143e4c57b30857ef1"
+  },
+  {
+    "name": "pdf",
+    "description": "Create, read, merge, fill, and secure PDF files.",
+    "path": "pdf",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "68b48d6e9663f23e7a20103d3a9030923cf1b81e435c3c504c30ac4ed8ba18ac"
+  },
+  {
+    "name": "persona-create",
+    "description": "This skill should be used when the user asks to \"create a persona\", \"add a new persona\", \"set up a new agent role\", \"add a woterclip persona\", or runs the /persona-create command. Interactively creates a new WoterClip persona with SOUL.md, TOOLS.md, and config.yaml.",
+    "path": "persona-create",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "64929cd9ef40fc768625cf07f576b95f7d1cdace243c2ecaef7dc1cf07756313"
+  },
+  {
+    "name": "persona-import",
+    "description": "This skill should be used when the user asks to \"import a paperclip agent\", \"convert paperclip to woterclip\", \"migrate from paperclip\", \"import persona from paperclip\", or wants to convert existing Paperclip agent directories into WoterClip persona format.",
+    "path": "persona-import",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "38e64aa7b332ac634b6ea7fb75965d3506cab415fb754de5beff8dda3537a9c5"
+  },
+  {
+    "name": "persona-list",
+    "description": "This skill should be used when the user asks to \"list personas\", \"show personas\", \"what personas are configured\", \"show woterclip agents\", or runs the /persona-list command. Lists all configured WoterClip personas with their runtime settings.",
+    "path": "persona-list",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "a7aa7e4f75b29a67b0e8224ccd91b5ba210b8ab11a53cf88e0f130c60ce87fd1"
+  },
+  {
+    "name": "petdex",
+    "description": "Install and select animated petdex mascots for Hermes.",
+    "path": "petdex",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "b314025918d8ab0362f45d8e850dac2f583d567f020102b212620fe1f638587a"
+  },
+  {
+    "name": "plan",
+    "description": "Write a markdown plan to .hermes/plans/; no execution.",
+    "path": "plan",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "9406276bad2710155cda3070211816b5f98395ed5db793a5e67a1b54db527e31"
+  },
+  {
+    "name": "plan-ceo-review",
+    "description": "CEO/founder-mode plan review. Rethink the problem, find the 10-star product, challenge premises, expand scope when it creates a better product. Four modes: SCOPE EXPANSION (dream big), SELECTIVE EXPANSION (hold scope + cherry-pick expansions), HOLD SCOPE (maximum rigor), SCOPE REDUCTION (strip to essentials). Use when asked to \"think bigger\", \"expand scope\", \"strategy review\", \"rethink this\", or \"is this ambitious enough\". Proactively suggest when the user is questioning scope or ambition of a plan, or when the plan feels like it could be thinking bigger.",
+    "path": "plan-ceo-review",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "05c57c3aa814a6341c11db6d1d3f4ea611c9992e2689c3b94e1e18527893aec3"
+  },
+  {
+    "name": "plan-design-review",
+    "description": "Designer's eye plan review \u2014 interactive, like CEO and Eng review. Rates each design dimension 0-10, explains what would make it a 10, then fixes the plan to get there. Works in plan mode. For live site visual audits, use /design-review. Use when asked to \"review the design plan\" or \"design critique\". Proactively suggest when the user has a plan with UI/UX components that should be reviewed before implementation.",
+    "path": "plan-design-review",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "6da7b99983f0cff92841df9ee37a380f951084d382d9d220db855b9424bcb21f"
+  },
+  {
+    "name": "plan-eng-review",
+    "description": "Eng manager-mode plan review. Lock in the execution plan \u2014 architecture, data flow, diagrams, edge cases, test coverage, performance. Walks through issues interactively with opinionated recommendations. Use when asked to \"review the architecture\", \"engineering review\", or \"lock in the plan\". Proactively suggest when the user has a plan or design doc and is about to start coding \u2014 to catch architecture issues before implementation.",
+    "path": "plan-eng-review",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "dd24e5d2bea480ef183344747bf2c3dc59cae0cb8be10c6f513ad89eeb97a651"
+  },
+  {
+    "name": "polymarket",
+    "description": "Query Polymarket: markets, prices, orderbooks, history.",
+    "path": "polymarket",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "c9549109c8ab1e53e1bab6350180a417413084c410c64fadf61280bff5d21ae9"
+  },
+  {
+    "name": "popular-web-designs",
+    "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+    "path": "popular-web-designs",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "956483699da178d86f00aabd874a63068b50d3a6328b63aa92e88b8486b07921"
+  },
+  {
+    "name": "popup-cro",
+    "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+    "path": "popup-cro",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "7284678a518ff9dedb125ce39d04732fb532e32adea6fe0913e64928ab7e8282"
+  },
+  {
+    "name": "powerpoint",
+    "description": "Create, read, edit .pptx decks with python-pptx.",
+    "path": "powerpoint",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "0ce47782582d0a6254c7af601ee6529df58dfa287be473c8e53e4f4422ec4fef"
+  },
+  {
+    "name": "pr-to-video",
+    "description": "Turn a GitHub pull request (a PR URL, owner/repo#N, or 'this PR' in a checked-out repo) into a code-change explainer video \u2014 changelog, feature reveal, fix, or refactor walkthrough built from the diff, commits, and files: the input is a code change, not a website. Not a product promo (/product-launch-video) or a no-PR topic explainer (/faceless-explainer). Unclear \u2192 /hyperframes.",
+    "path": "pr-to-video",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "354a9a8cc6002c7e47981c1b569e2baa6ea3ae401804495894edae8ac8637ac8"
+  },
+  {
+    "name": "pr-to-video-video-editor-agents",
+    "description": "Turn a GitHub pull request (a PR URL, owner/repo#N, or 'this PR' in a checked-out repo) into a code-change explainer video \u2014 changelog, feature reveal, fix, or refactor walkthrough built from the diff, commits, and files: the input is a code change, not a website. Not a product promo (/product-launch-video) or a no-PR topic explainer (/faceless-explainer). Unclear \u2192 /hyperframes.",
+    "path": "pr-to-video-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "964a5ca5c8b5fe9887a3d6c596afd23ceb0542d015e13309135af26e1076eacf"
+  },
+  {
+    "name": "pretext",
+    "description": "Build creative browser demos with DOM-free text layout.",
+    "path": "pretext",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "212aeea5ca83833dc3861b0b0f5e76c9a49539b293e4079afdd0700ecff007d3"
+  },
+  {
+    "name": "pricing-strategy",
+    "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy.",
+    "path": "pricing-strategy",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1"
+  },
+  {
+    "name": "product-launch-video",
+    "description": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video \u2014 SaaS promos, feature reveals, product demos, app and company launches. Use when the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Site tours / showcases of a website route here too \u2014 the brief carries the show-it-as-is intent. Unclear \u2192 /hyperframes.",
+    "path": "product-launch-video",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "48dbfe1d5ab63ff43daa1b59ee1a97594041ac6aad29a5c7ef16367a9bb4131d"
+  },
+  {
+    "name": "product-launch-video-video-editor-agents",
+    "description": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video \u2014 SaaS promos, feature reveals, product demos, app and company launches. Use when the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Not a general site tour (/website-to-video). Unclear \u2192 /hyperframes.",
+    "path": "product-launch-video-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "586d6ce9850bfe45696ae0c40c448f94b5c1708511f0bbd5b6ba9458220e8dc5"
+  },
+  {
+    "name": "product-price-monitor",
+    "description": "Watch product, flight, or listing prices; alert on target.",
+    "path": "product-price-monitor",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "46d1fc424e15d949ad333152b2b864bb1cfdc8ea7518890c6c1f421b2fda002c"
+  },
+  {
+    "name": "programmatic-seo",
+    "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit.",
+    "path": "programmatic-seo",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "f54fd1731b67cf7d3b0e2f418790c589a56c7076913df13c63c7bdd3a6bd72df"
+  },
+  {
+    "name": "python-debugpy",
+    "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+    "path": "python-debugpy",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "181facb22b46e4ea1bb1dd2fdb4145077ad4cc08e61e46d607b3f86e264f479a"
+  },
+  {
+    "name": "qa",
+    "description": "Systematically QA test a web application and fix bugs found. Runs QA testing, then iteratively fixes bugs in source code, committing each fix atomically and re-verifying. Use when asked to \"qa\", \"QA\", \"test this site\", \"find bugs\", \"test and fix\", or \"fix what's broken\". Proactively suggest when the user says a feature is ready for testing or asks \"does this work?\". Three tiers: Quick (critical/high only), Standard (+ medium), Exhaustive (+ cosmetic). Produces before/after health scores, fix evidence, and a ship-readiness summary. For report-only mode, use /qa-only.",
+    "path": "qa",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "81a49c9b1d36648722aaf982fdcfec8994cdc774ee2b14ac337b8da876a8de46"
+  },
+  {
+    "name": "qa-only",
+    "description": "Report-only QA testing. Systematically tests a web application and produces a structured report with health score, screenshots, and repro steps \u2014 but never fixes anything. Use when asked to \"just report bugs\", \"qa report only\", or \"test but don't fix\". For the full test-fix-verify loop, use /qa instead. Proactively suggest when the user wants a bug report without any code changes.",
+    "path": "qa-only",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "6b532a6e3d040d90014a957ee0d771c8762d7e27a196941cf5aa7bd1f895102f"
+  },
+  {
+    "name": "ratel-assessment",
+    "description": "Read a partner's agent codebase, score it across the 12-dimension catalog, and emit an evidence-cited markdown plus branded scored HTML report. Use for a first-touch audit: assess/review/audit our agent, where to improve, spot low-hanging fruit, an honest read of what's weak, what Ratel would notice, or `/ratel-assessment`. Static-only unless a live telemetry sample (any OTLP/OTel backend \u2014 Ratel, Langfuse, LangSmith) is MCP-wired; writes to repo/.ratel/ without editing code; routes into follow-up Ratel skills.",
+    "path": "ratel-assessment",
+    "sources": [
+      "Video Editor Agents",
+      "Video Editor Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "6b23cf5757e52519880831801502c3c4cbb6745a40c2e6b8967a9f2216e93d68"
+  },
+  {
+    "name": "ratel-assessment-video-editor",
+    "description": "Read a partner's agent codebase, score it across the 12-dimension catalog, and emit an evidence-cited markdown plus branded scored HTML report. Use for a first-touch audit: assess/review/audit our agent, where to improve, spot low-hanging fruit, an honest read of what's weak, what Ratel would notice, or `/ratel-assessment`. Static-only unless a live telemetry sample (any OTLP/OTel backend \u2014 Ratel, Langfuse, LangSmith) is MCP-wired; writes to repo/.ratel/ without editing code; routes into follow-up Ratel skills.\\n",
+    "path": "ratel-assessment-video-editor",
+    "sources": [
+      "Video Editor"
+    ],
+    "origin": null,
+    "skill_sha256": "02eb9239915befc82bdce675a86a7921b1cee62ba854f9b9a24b2462bb5388f1"
+  },
+  {
+    "name": "ratel-decompose-prompt",
+    "description": "Break a bloated, monolithic agent system prompt into a lean stable core plus extracted Ratel-style skills. Use when a prompt is too long or does too many things, to extract or factor procedures into skills, decompose or split a prompt, cut per-turn token cost, or `/ratel-decompose-prompt`. Writes a markdown decomposition plan (lean core, skill inventory, per-skill SKILL definitions, registration wiring) to repo/.ratel/ without rewriting the prompt or code. Reached from /ratel-assessment's Prompt Decomposition dimension; pairs with /ratel-tune-definitions.",
+    "path": "ratel-decompose-prompt",
+    "sources": [
+      "Video Editor Agents",
+      "Video Editor Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "1ddf706b739a4f739ed0a9a3ca8bf142c35a4bb65b7af8906389f2e73cd9fc8b"
+  },
+  {
+    "name": "ratel-decompose-prompt-video-editor",
+    "description": "Break a bloated, monolithic agent system prompt into a lean stable core plus extracted Ratel-style skills. Use when a prompt is too long or does too many things, to extract or factor procedures into skills, decompose or split a prompt, cut per-turn token cost, or `/ratel-decompose-prompt`. Writes a markdown decomposition plan (lean core, skill inventory, per-skill SKILL definitions, registration wiring) to repo/.ratel/ without rewriting the prompt or code. Reached from /ratel-assessment's Prompt Decomposition dimension; pairs with /ratel-tune-definitions.\\n",
+    "path": "ratel-decompose-prompt-video-editor",
+    "sources": [
+      "Video Editor"
+    ],
+    "origin": null,
+    "skill_sha256": "9490355e1d2724f1271d18ca43f8e1faa01eb5cdca4317a238deb7f104de567c"
+  },
+  {
+    "name": "ratel-integrate",
+    "description": "Inspect a customer agent codebase for its tool-management approach and framework, fetch Ratel docs, and write a markdown plan to integrate Ratel \u2014 integration mode (direct SDK / Ratel Local / hybrid), pilot scope, A/B test design, and rollout metrics keyed off Ratel's native OTLP telemetry. Use to add Ratel, set up the SDK, add tool search / hybrid retrieval, plan a Ratel pilot, rollout, or A/B test, or `/ratel-integrate`. Writes to repo/.ratel/, asks when ambiguous, never edits code; runs after /ratel-observability-assessment.",
+    "path": "ratel-integrate",
+    "sources": [
+      "Video Editor Agents",
+      "Video Editor Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "24f507924e73e08e361746a571bb232e44328b5e82fbb8102b75acdc51a4335e"
+  },
+  {
+    "name": "ratel-integrate-video-editor",
+    "description": "Inspect a customer agent codebase for its tool-management approach and framework, fetch Ratel docs, and write a markdown plan to integrate Ratel \u2014 integration mode (direct SDK / Ratel Local / hybrid), pilot scope, A/B test design, and rollout metrics keyed off Ratel's native OTLP telemetry. Use to add Ratel, set up the SDK, add tool search / hybrid retrieval, plan a Ratel pilot, rollout, or A/B test, or `/ratel-integrate`. Writes to repo/.ratel/, asks when ambiguous, never edits code; runs after /ratel-observability-assessment.\\n",
+    "path": "ratel-integrate-video-editor",
+    "sources": [
+      "Video Editor"
+    ],
+    "origin": null,
+    "skill_sha256": "af6d9a050e72367fcf37482db7912a592f4d09d7757bd4c70d6516e591381256"
+  },
+  {
+    "name": "ratel-observability-assessment",
+    "description": "Inspect an agent codebase to decide where tracing belongs, turn on Ratel's native OTLP telemetry, and pick the OTel backend the team already runs to export to, then write a proposal covering instrumentation, backend selection, and the dashboards that prove value. Use when mounting observability, asking where tracing goes or what to instrument/measure, turning on Ratel telemetry, choosing an OTel backend (Langfuse/LangSmith/collector/Ratel Cloud), designing dashboards, asking what proves Ratel's value, or `/ratel-observability-assessment`. Entry point of the funnel (reached from /ratel-assessment); hands off to /ratel-integrate for rollout. Writes one living markdown file to repo/.ratel/; does not edit code or call a backend API; skips when there's no agent surface.",
+    "path": "ratel-observability-assessment",
+    "sources": [
+      "Video Editor Agents",
+      "Video Editor Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "83e2e2b1b5581bb40e0ba0c9d6072f2825406227c9798ffd448701e3feb1469e"
+  },
+  {
+    "name": "ratel-observability-assessment-video-editor",
+    "description": "Inspect an agent codebase to decide where tracing belongs, turn on Ratel's native OTLP telemetry, and pick the OTel backend the team already runs to export to, then write a proposal covering instrumentation, backend selection, and the dashboards that prove value. Use when mounting observability, asking where tracing goes or what to instrument/measure, turning on Ratel telemetry, choosing an OTel backend (Langfuse/LangSmith/collector/Ratel Cloud), designing dashboards, asking what proves Ratel's value, or `/ratel-observability-assessment`. Entry point of the funnel (reached from /ratel-assessment); hands off to /ratel-integrate for rollout. Writes one living markdown file to repo/.ratel/; does not edit code or call a backend API; skips when there's no agent surface.\\n",
+    "path": "ratel-observability-assessment-video-editor",
+    "sources": [
+      "Video Editor"
+    ],
+    "origin": null,
+    "skill_sha256": "3789f3c6746572b52fbf17c472af53c27d7df1a1a41faefdcd5aec532e079e23"
+  },
+  {
+    "name": "ratel-tune-definitions",
+    "description": "Audit a codebase's tool and skill definitions against a failure-mode rubric and write a markdown tuning plan with per-definition before/after rewrites that make them retrievable by Ratel's hybrid lexical + semantic index and usable by the model. Use when the model picks the wrong tool, tools never get picked, descriptions are too long/vague/anemic, to fix near-duplicates, tighten schemas/enums/param names, clean up the tool catalog, or `/ratel-tune-definitions`. Fetches live Ratel docs; writes to repo/.ratel/ without editing tool or skill code. The fix /ratel-assessment's Definition Quality dimension routes to; runs after /ratel-decompose-prompt.",
+    "path": "ratel-tune-definitions",
+    "sources": [
+      "Video Editor Agents",
+      "Video Editor Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "aecc6740dcc5eb68287e31c843ca4739e5fc598003aef870c37f5512133c4984"
+  },
+  {
+    "name": "ratel-tune-definitions-video-editor",
+    "description": "Audit a codebase's tool and skill definitions against a failure-mode rubric and write a markdown tuning plan with per-definition before/after rewrites that make them retrievable by Ratel's hybrid lexical + semantic index and usable by the model. Use when the model picks the wrong tool, tools never get picked, descriptions are too long/vague/anemic, to fix near-duplicates, tighten schemas/enums/param names, clean up the tool catalog, or `/ratel-tune-definitions`. Fetches live Ratel docs; writes to repo/.ratel/ without editing tool or skill code. The fix /ratel-assessment's Definition Quality dimension routes to; runs after /ratel-decompose-prompt.\\n",
+    "path": "ratel-tune-definitions-video-editor",
+    "sources": [
+      "Video Editor"
+    ],
+    "origin": null,
+    "skill_sha256": "937d5ba7ae99d40136f2f6304b4eb9a88080d54b42e26e65a5969e8dbbbcb456"
+  },
+  {
+    "name": "referral-program",
+    "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.",
+    "path": "referral-program",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "4ea4a7fd3bb9fd66b45e1643bc107d330038d44cc830676590117fae8a4fe710"
+  },
+  {
+    "name": "remotion",
+    "description": "CLAUDE.md",
+    "path": "remotion",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "c8c0797e7baf850aaaf6f05a24c89f34e82b89b836fd79d94b92a111365448ca"
+  },
+  {
+    "name": "remotion-best-practices",
+    "description": "Best practices for Remotion - Video creation in React",
+    "path": "remotion-best-practices",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/remotion-dev/skills",
+    "skill_sha256": "b03b063f350e484c5b56641a4afd2b71e0ee171e082bd73b494ae217fef3805f"
+  },
+  {
+    "name": "remotion-to-hyperframes",
+    "description": "Port an existing Remotion (React) composition''s source to HyperFrames HTML. Use ONLY on an explicit ask to port/convert/migrate/translate a Remotion source \u2014 one-way, Remotion-only. A passing Remotion mention, reference-only code, or \"make something like my Remotion video\" is a fresh build (/general-video). Unclear \u2192 /hyperframes.",
+    "path": "remotion-to-hyperframes",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "dc0a7aaab6a90514c741a98afa93f6eda254162074793d4b5045f256de47f9f2"
+  },
+  {
+    "name": "remotion-to-hyperframes-video-editor-agents",
+    "description": "Port an existing Remotion (React) composition''s source to HyperFrames HTML. Use ONLY on an explicit ask to port/convert/migrate/translate a Remotion source \u2014 one-way, Remotion-only. A passing Remotion mention, reference-only code, or \"make something like my Remotion video\" is a fresh build (/general-video). Unclear \u2192 /hyperframes.",
+    "path": "remotion-to-hyperframes-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "011a48b07fc357bc2cdd9ec2459a1505e9748fef1a751c3825900284c2d61dec"
+  },
+  {
+    "name": "requesting-code-review",
+    "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+    "path": "requesting-code-review",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "ffb064f0321d97ff09c6acae9c63560a01eb2ac1eb25e4d5487ce7c5a5b12b56"
+  },
+  {
+    "name": "research-paper-writing",
+    "description": "Write ML papers for NeurIPS/ICML/ICLR: design\u2192submit.",
+    "path": "research-paper-writing",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "3e4d6fd7f5470d221113d9a33844d64ab09fbbd4337ebd1d2aff6d03abc51255"
+  },
+  {
+    "name": "retro",
+    "description": "Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware: breaks down per-person contributions with praise and growth areas. Use when asked to \"weekly retro\", \"what did we ship\", or \"engineering retrospective\". Proactively suggest at the end of a work week or sprint.",
+    "path": "retro",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "99cb2110f23ec5287b74c92924819b7865d92f86494c5c02c4273af3d206db73"
+  },
+  {
+    "name": "review",
+    "description": "Pre-landing PR review. Analyzes diff against the base branch for SQL safety, LLM trust boundary violations, conditional side effects, and other structural issues. Use when asked to \"review this PR\", \"code review\", \"pre-landing review\", or \"check my diff\". Proactively suggest when the user is about to merge or land code changes.",
+    "path": "review",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "68b3ee1e4a28d8da134963d3a61a5b9ea9bbba2f43835cbc0941313502a1f818"
+  },
+  {
+    "name": "samin-youtube-intro-editor",
+    "description": "Edit or plan the first 2\u20138 minutes of Samin Yasar's talking-head YouTube videos. Use when an intro needs fast proof-first visual storytelling, the presenter framed bottom-right over websites or diagrams, pacing modeled on Samin's published videos, or a reusable HyperFrames-based cut with quality checks and a rendered MP4.",
+    "path": "samin-youtube-intro-editor",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "adbc86a4ee9c2ed70f9250938065e077516039b3763fedb2ac5b2e9bb55169c9"
+  },
+  {
+    "name": "schema-markup",
+    "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues, see seo-audit.",
+    "path": "schema-markup",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "b43f80e20747a21f7b459d22d605858cf1d3586fd99388ec2941115e0e043fd8"
+  },
+  {
+    "name": "seam-craft",
+    "description": "Render-correctness doctrine for scene-to-scene seams in HyperFrames launch videos \u2014 the prerequisites that make transitions composite correctly on the master timeline. Load when assembling the master timeline / index.html, when a white flash appears at a cut or crossfade seam (especially on dark films), when reasoning about why a transition opacity dip shows through, or when verifying the render-side mechanics of how overlapping scene wrappers blend. Covers the opaque stage-ground (#root background) white-flash guard and how the injector overlaps wrappers, holds final frames, ping-pongs tracks, and stamps lint-clean template code onto the master timeline. Does NOT contain the per-transition catalog \u2014 see the transition registry for individual transition entries.",
+    "path": "seam-craft",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "e86400c1fba3e182c1b6c4754fc9d77aa119b65ce9215504b044c7e413523d80"
+  },
+  {
+    "name": "segment-anything-model",
+    "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+    "path": "segment-anything-model",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "f379ea9eedecc58ca5f64e84a1f304a4d5d969d85345c9117ca7a8973073522d"
+  },
+  {
+    "name": "seo-audit",
+    "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.",
+    "path": "seo-audit",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "746cc57c51afc93da2d2f4f06e1270b3a4360ef8b3b49d1e416bf2c0c49bb454"
+  },
+  {
+    "name": "sequential-thinking",
+    "description": "Use when complex problems require systematic step-by-step reasoning with ability to revise thoughts, branch into alternative approaches, or dynamically adjust scope. Ideal for multi-stage analysis, design planning, problem decomposition, or tasks with initially unclear scope.",
+    "path": "sequential-thinking",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity"
+    ],
+    "origin": "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/sequential-thinking",
+    "skill_sha256": "c517ae710853ee2ea06111d72888fbe1eb432368b0a7984b9c31391ecbc2ef27"
+  },
+  {
+    "name": "serving-llms-vllm",
+    "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+    "path": "serving-llms-vllm",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "f44da5c3703747194c13f53fa161a59cb30a259cba76e573779ce3a7742c6723"
+  },
+  {
+    "name": "setup-browser-cookies",
+    "description": "Import cookies from your real Chromium browser into the headless browse session. Opens an interactive picker UI where you select which cookie domains to import. Use before QA testing authenticated pages. Use when asked to \"import cookies\", \"login to the site\", or \"authenticate the browser\".",
+    "path": "setup-browser-cookies",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "5196e3448093b6c8c1358a6a5ec1fa229c7d4d545187a43892314270a1554425"
+  },
+  {
+    "name": "setup-deploy",
+    "description": "Configure deployment settings for /land-and-deploy. Detects your deploy platform (Fly.io, Render, Vercel, Netlify, Heroku, GitHub Actions, custom), production URL, health check endpoints, and deploy status commands. Writes the configuration to CLAUDE.md so all future deploys are automatic. Use when: \"setup deploy\", \"configure deployment\", \"set up land-and-deploy\", \"how do I deploy with gstack\", \"add deploy config\".",
+    "path": "setup-deploy",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "54a89844faaa7ebffbae47adb73cacd5613acf04676df4f9d6ee5990bc970280"
+  },
+  {
+    "name": "ship",
+    "description": "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION, update CHANGELOG, commit, push, create PR. Use when asked to \"ship\", \"deploy\", \"push to main\", \"create a PR\", or \"merge and push\". Proactively suggest when the user says code is ready or asks about deploying.",
+    "path": "ship",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "3de2b91c19cfd6fc9a996cf53166a4e6abc8ea67e9d80c71b75b02e769a09cba"
+  },
+  {
+    "name": "short-form",
+    "description": "Repurpose a long-form YouTube video into short-form clips for Reels, Shorts, and TikTok. Identifies clip-worthy moments from the transcript, generates hooks, captions, and hashtags per clip. Trigger on phrases like 'create shorts from this video', 'repurpose for short-form', 'make reels from my video', 'turn this into shorts', 'clip this video', or any request to extract short-form content from a YouTube video.",
+    "path": "short-form",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "9e0f742cac04dd6f62000c6c207cc9fc301205cd676672c5153d9e12968a5789"
+  },
+  {
+    "name": "signup-flow-cro",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+    "path": "signup-flow-cro",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "d52fe97c2712260cbba0832e5747dcc6f189e131000be0df762abd7c85562812"
+  },
+  {
+    "name": "simplify-code",
+    "description": "Parallel 4-agent cleanup of recent code changes.",
+    "path": "simplify-code",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "f413b799351a8c6b09228272b88d06fe8f72e02682f25873b5f473924edbccc5"
+  },
+  {
+    "name": "sketch",
+    "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+    "path": "sketch",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "e46f10a323d9656150cfbc06390bf24eb601f9d453fd6cee5841f4e69474a71d"
+  },
+  {
+    "name": "skill-discovery",
+    "description": "Search for reusable skills across OpenSpace's local registry and cloud community. Reusing proven skills saves tokens, improves reliability, and extends your capabilities beyond built-in tools.",
+    "path": "skill-discovery",
+    "sources": [
+      "Shared"
+    ],
+    "origin": "https://github.com/Samin12/life-os",
+    "skill_sha256": "78e5b8f72a71a13d163aa13795ceb646c6be9f602b172f0f54228b5800e2304b"
+  },
+  {
+    "name": "slideshow",
+    "description": "Author a HyperFrames slideshow \u2014 a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching, hotspot navigation, and built-in presenter mode with speaker notes; also converts an existing page into a deck. Output is a navigable deck, not a rendered MP4. If the user didn't explicitly ask for a slideshow, confirm before authoring. Unclear \u2192 /hyperframes.",
+    "path": "slideshow",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "031a57cbe99d1fc733fabd5c1033d1a1c1fefff39c49eafdc9982f509fc137b9"
+  },
+  {
+    "name": "social-content",
+    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.",
+    "path": "social-content",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/coreyhaines31/marketingskills",
+    "skill_sha256": "9c40b9ceda9094b3ce256d62ca8a33e8f82f323cff357da294e14262ed429b69"
+  },
+  {
+    "name": "songsee",
+    "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+    "path": "songsee",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "24918420b3a009919a120dce85c97bb4f3ceaac8671dee2dc7089d8a268227f1"
+  },
+  {
+    "name": "songwriting-and-ai-music",
+    "description": "Songwriting craft and Suno AI music prompts.",
+    "path": "songwriting-and-ai-music",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "261a83cab2addd3456567c4625eaaffcf2fc581f51d0e7f44037430b8653c006"
+  },
+  {
+    "name": "spike",
+    "description": "Throwaway experiments to validate an idea before build.",
+    "path": "spike",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "48f1cfcef271574c4a69c7c5b0b09e24b16e46ac7372e16265345b5b77c52f95"
+  },
+  {
+    "name": "stop-slop",
+    "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
+    "path": "stop-slop",
+    "sources": [
+      "Claude"
+    ],
+    "origin": "https://github.com/hardikpandya/stop-slop/tree/main",
+    "skill_sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310"
+  },
+  {
+    "name": "systematic-debugging",
+    "description": "4-phase root cause debugging: understand bugs before fixing.",
+    "path": "systematic-debugging",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d6c9936d36c6b4697d4d0727c84e49215c301e23e93053f736fb43aea1d10fcc"
+  },
+  {
+    "name": "talking-head-recut",
+    "description": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards \u2014 kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture \u2014 synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear \u2192 /hyperframes.",
+    "path": "talking-head-recut",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity",
+      "Hermes",
+      "OpenCode"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "ec91591f991fdb6f6ffcfbc4b8fa9756c9700197e0e03a14047bdc99d7972241"
+  },
+  {
+    "name": "talking-head-recut-video-editor-agents",
+    "description": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards \u2014 kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture \u2014 synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear \u2192 /hyperframes.",
+    "path": "talking-head-recut-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "71290e656f9a4999acb8cfd3ff0cdc0e89997ae43cb7b42f8df1a3b9ec770382"
+  },
+  {
+    "name": "teach",
+    "description": "Teach the user a new skill or concept, within this workspace.",
+    "path": "teach",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "ded82e6716972ee3a596cac081588f46f10c5f4b7bcfc88bb412910c22199325"
+  },
+  {
+    "name": "teams-meeting-pipeline",
+    "description": "Teams meeting summaries, job replay, Graph subscriptions.",
+    "path": "teams-meeting-pipeline",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "ae7bfef9d0e3acb0892096e964d303b44ab0c01f3fc7a1bc98fb8561a05e678c"
+  },
+  {
+    "name": "test-driven-development",
+    "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+    "path": "test-driven-development",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "0ae4def9c0e1f36529c11f17b97d1e1861fb79a94c15362ea3577ed1108414f0"
+  },
+  {
+    "name": "think-visualizer",
+    "description": "Turn raw ideas, script fragments, outlines, arguments, teaching points, or abstract concepts into visual thinking artifacts using the Think/Pink Sheet process. Use when the user asks to visualize an idea, create a diagram, make an interactive HTML widget, create a generated image, convert script material into visuals, build a pink sheet, or use Think, pink sheets, full-spectrum thinking, models, metaphors, case studies, or stories to explain something.",
+    "path": "think-visualizer",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "ada811625465a0095a0d3e084eb6fbd767c0b354781f9a0999f29f508d771646"
+  },
+  {
+    "name": "tldraw-offline",
+    "description": "Operate the user's tldraw offline canvas app, including open .tldraw or .tldr files. Use whenever a task involves inspecting, editing, arranging, connecting, linting, or scripting a tldraw Desktop canvas.",
+    "path": "tldraw-offline",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Config",
+      "Home Skills"
+    ],
+    "origin": null,
+    "skill_sha256": "fcae55418a204ae133b8768e796cb3583b4389e21036dab5d68227e47240c7a0"
+  },
+  {
+    "name": "touchdesigner-mcp",
+    "description": "Control TouchDesigner via twozero MCP.",
+    "path": "touchdesigner-mcp",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "9e77e5f3c18fa7d585ca541eae283a991937226fcbcb10112edbe17575ceb2c8"
+  },
+  {
+    "name": "unfreeze",
+    "description": "Clear the freeze boundary set by /freeze, allowing edits to all directories again. Use when you want to widen edit scope without ending the session. Use when asked to \"unfreeze\", \"unlock edits\", \"remove freeze\", or \"allow all edits\".",
+    "path": "unfreeze",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/conductor-playground",
+    "skill_sha256": "63f1e7aecd2687449769c6b49a5ba1c479077c5696949784f4d7b39d6770d564"
+  },
+  {
+    "name": "universal-skills-manager",
+    "description": "The master coordinator for AI skills. Discovers skills from multiple sources (SkillsMP.com, SkillHub, and ClawHub), manages installation, and synchronization across Claude Code, Gemini CLI, Google Anti-Gravity, OpenCode, and other AI tools. Handles User-level (Global) and Project-level (Local) scopes.",
+    "path": "universal-skills-manager",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity"
+    ],
+    "origin": null,
+    "skill_sha256": "e9eae3a81c7c92c060acc650a3fb57e03dbfcb174ad95dace34674ebe1c9057f"
+  },
+  {
+    "name": "update-qm",
+    "description": "Update a private qm fork by merging upstream qm into it and opening a sync PR. Use when asked to \"update qm\", \"sync from upstream\", \"pull in the latest qm\".",
+    "path": "update-qm",
+    "sources": [
+      "Testing Claude",
+      "Testing Codex"
+    ],
+    "origin": "https://github.com/yc-software/qm",
+    "skill_sha256": "ad93f615b4653a09f620cb3a536b1caeb0b0b953f180406185252d267122a91b"
+  },
+  {
+    "name": "upstream-pr",
+    "description": "Send a change to upstream qm without leaking organization-specific context. Use when asked to \"upstream this\", \"open a PR against qm\", \"contribute this back\", or when a fix made in a private fork belongs in core qm.",
+    "path": "upstream-pr",
+    "sources": [
+      "Testing Claude",
+      "Testing Codex"
+    ],
+    "origin": "https://github.com/yc-software/qm",
+    "skill_sha256": "f274bea47cf3b7a710af8840dc7062c51e18f124fa743b4319e31d387ccdd660"
+  },
+  {
+    "name": "using-superpowers",
+    "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+    "path": "using-superpowers",
+    "sources": [
+      "Claude",
+      "Codex",
+      "Cursor",
+      "Gemini",
+      "Gemini Anti-Gravity"
+    ],
+    "origin": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",
+    "skill_sha256": "5fa548a85ce639dc6a2ea53607f9d405363c9b935004d0d95dc16e9629752d00"
+  },
+  {
+    "name": "video-production",
+    "description": "Video Production Skill",
+    "path": "video-production",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "4ffeac8ea007977ac31368ef48ad408ec84baba66bf882cca64259b92c9e203d"
+  },
+  {
+    "name": "visualize-a-cam-intros",
+    "description": "Turn talking-head A-cam intros into proof-first visual stories by keeping the presenter as a stable foreground anchor while cherry-picking, reframing, timing, and animating B-roll, product footage, screenshots, slides, comparisons, and prior-video clips. Use for YouTube or course intros, podcast hooks, transcript-matched B-roll edits, presenter picture-in-picture layouts, Borumi timeline edits, HyperFrames intro composites, or QA of dense A-cam/B-roll openings.",
+    "path": "visualize-a-cam-intros",
+    "sources": [
+      "Codex"
+    ],
+    "origin": "https://github.com/Samin12/visualize-a-cam-intros",
+    "skill_sha256": "43ed383b3066b987e3ddefaf8a3ed246e2e080cb3cb3654ae4e21ff0aa72a599"
+  },
+  {
+    "name": "voice-orchestrator",
+    "description": "Coordinate multiple independent Codex tasks from one voice or chat task by creating, pinning, steering, monitoring, and synthesizing durable worker tasks. Use when the user says \"read the voice orchestrator\" or asks to fan out work, run several workstreams in parallel, manage Codex tasks hands-free or by voice, delegate research or implementation lanes, redirect existing tasks, or receive concise progress reports. Do not use for a single small task that is faster to complete directly.",
+    "path": "voice-orchestrator",
+    "sources": [
+      "Agents"
+    ],
+    "origin": "https://github.com/Samin12/skills",
+    "skill_sha256": "1335deb7f142bdb9d74910adce33fc9946e2a25b4419414fd96e8756bbc2e219"
+  },
+  {
+    "name": "wavespeed",
+    "description": "WaveSpeed AI Skill",
+    "path": "wavespeed",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "1f93d773c5ecfc5fa87297280bf610a67e422ebd9f997b342181a83abc74ff17"
+  },
+  {
+    "name": "weekly-review-planning",
+    "description": "Weekly reset: commitments, stalled work, next-week plan.",
+    "path": "weekly-review-planning",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "45294191607b3a25b63b6c6ca7eee489d5b0ec75a8023d0904fd7c5aa3f96020"
+  },
+  {
+    "name": "weights-and-biases",
+    "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+    "path": "weights-and-biases",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "bd36d9f983699bfd3a42ce7114234c9d7d556e3beef6e047c8b81f8bf06fe69b"
+  },
+  {
+    "name": "world-builder",
+    "description": "Create and manage generative game zones for Claude Command Center's Pokemon-style world. Use this skill when creating, updating, or designing game worlds via MCP tools.",
+    "path": "world-builder",
+    "sources": [
+      "Claude",
+      "Gemini"
+    ],
+    "origin": null,
+    "skill_sha256": "986db1961ddcd5169d95db5eda0732f99faf535317efda77ceab755e811b6242"
+  },
+  {
+    "name": "woterclip-init",
+    "description": "This skill should be used when the user asks to \"initialize woterclip\", \"set up woterclip\", \"woterclip init\", \"configure woterclip for this repo\", or runs the /woterclip-init command. Scaffolds a repo with WoterClip config, persona directories, and Linear labels.",
+    "path": "woterclip-init",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "50d381cb0f55a1938256c34f4866623340316ba3bb20f016e401b29ceccc2e9c"
+  },
+  {
+    "name": "woterclip-status",
+    "description": "This skill should be used when the user asks to \"check woterclip status\", \"show agent status\", \"what is woterclip doing\", \"show heartbeat status\", \"what's in the queue\", or runs the /woterclip-status command. Shows current WoterClip state, issue queue, and blocked items.",
+    "path": "woterclip-status",
+    "sources": [
+      "Woterclip"
+    ],
+    "origin": "https://github.com/wotai-dev/woterclip",
+    "skill_sha256": "b6b540e0e9b468d565d04fdfbe4ba52d2926dfe385eadd377e537eb0e79ef7e5"
+  },
+  {
+    "name": "xlsx",
+    "description": "Create, read, edit Excel .xlsx workbooks and CSVs.",
+    "path": "xlsx",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d786b1994bf51f0275b645d8a1da1923154ffcb772c64e5775cd24c2b0b81dce"
+  },
+  {
+    "name": "xurl",
+    "description": "X/Twitter via xurl CLI: raw post search, posting, DM, media.",
+    "path": "xurl",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d1c4edd9ea7e5a4bfbab2bd34522a48192c1e02cc333bda4d42e7d58b1b54a0f"
+  },
+  {
+    "name": "youtube-content",
+    "description": "YouTube transcripts to summaries, threads, blogs.",
+    "path": "youtube-content",
+    "sources": [
+      "Hermes",
+      "Hermes Source"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "be03979ffcd261fa61ec35aaab970361c01da9d641c57cce7849a3eb28e363e5"
+  },
+  {
+    "name": "youtube-outliner",
+    "description": "YouTube Video Outliner - Samin Yasar Style",
+    "path": "youtube-outliner",
+    "sources": [],
+    "origin": null,
+    "skill_sha256": "6b71922d26b99d81722be77f03198061ee74b5e6d0b53fee1bca76a060f3af3c"
+  },
+  {
+    "name": "youtube-research",
+    "description": "Use this skill when the user asks to research YouTube video ideas, find outlier videos, analyze their channel performance, find trending topics for YouTube, do TubeLab research, cross-reference outliers with channel data, or generate video idea reports.",
+    "path": "youtube-research",
+    "sources": [],
+    "origin": null,
+    "skill_sha256": "42917491455891f1af2cffba9e9506c6223617a3ea0cb7bab17631585ecba019"
+  },
+  {
+    "name": "yt-titles",
+    "description": "Generate high-performing YouTube title ideas based on the user's video content description, cross-referenced with your recent top-performing videos. Use this skill whenever the user wants YouTube title suggestions, asks \"what should I title this video\", \"give me title ideas\", \"title options for my video about...\", \"help me name this video\", brainstorming video titles, or any request involving YouTube title generation or optimization. Also trigger when the user mentions titling, naming, or headlining a YouTube video even casually.",
+    "path": "yt-titles",
+    "sources": [
+      "Content Repurpose"
+    ],
+    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "skill_sha256": "7594a884966c3f324f3d67115380ef7de067338ec2eb8f3fdde693a1fdf7365d"
+  },
+  {
+    "name": "ytstudio",
+    "description": "ytstudio - YouTube Analytics & Management",
+    "path": "ytstudio",
+    "sources": [],
+    "origin": null,
+    "skill_sha256": "cc206624824f6f15f191ab1b242b860f5a3144822cad3776f7bee20b75224aed"
+  },
+  {
+    "name": "yuanbao",
+    "description": "Yuanbao (\u5143\u5b9d) groups: @mention users, query info/members.",
+    "path": "yuanbao",
+    "sources": [
+      "Hermes"
+    ],
+    "origin": "https://github.com/NousResearch/hermes-agent",
+    "skill_sha256": "d4af91a3eae3c6f74560ac192be2026e0c803fe594f39f351c54831c16832059"
+  }
+]

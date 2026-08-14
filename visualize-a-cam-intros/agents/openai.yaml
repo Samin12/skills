@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visualize A-Cam Intros"
+  short_description: "Build proof-first A-cam and B-roll intros"
+  default_prompt: "Use $visualize-a-cam-intros to turn my talking-head intro into a fast, proof-driven A-cam and B-roll edit."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Samin YouTube Intro Editor"
+  short_description: "Edit fast, proof-first Samin-style YouTube intros"
+  default_prompt: "Use $samin-youtube-intro-editor to edit this opening in Samin’s established YouTube visual style."

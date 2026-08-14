@@ -1,3 +1,8 @@
+---
+name: linkedin-carousel
+description: "LinkedIn Carousel Post via PDF"
+---
+
 # LinkedIn Carousel Post via PDF
 
 Post a LinkedIn carousel by uploading a local PDF through Vista Social.

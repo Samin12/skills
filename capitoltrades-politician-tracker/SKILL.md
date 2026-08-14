@@ -1,8 +1,7 @@
 ---
 name: capitoltrades-politician-tracker
-description: Scrape a politician's stock trading disclosures from CapitolTrades.com and report which trades are newly disclosed since the last check. Use this whenever the user wants to track, monitor, or check a member of Congress's stock trades — phrases like "what is [politician] trading", "track [senator/rep]'s trades", "check CapitolTrades for X", "any new disclosures from [politician]", or when given a capitoltrades.com/politicians/<ID> URL. Also use this to set up a recurring daily/weekly trade-tracking routine for a politician (pair with the `schedule` skill). Works for any politician on CapitolTrades, not just one specific person.
+description: "Scrape a politician's stock trading disclosures from CapitolTrades.com and report which trades are newly disclosed since the last check. Use this whenever the user wants to track, monitor, or check a member of Congress's stock trades — phrases like \"what is [politician] trading\", \"track [senator/rep]'s trades\", \"check CapitolTrades for X\", \"any new disclosures from [politician]\", or when given a capitoltrades.com/politicians/ID URL. Also use this to set up a recurring daily/weekly trade-tracking routine for a politician (pair with the `schedule` skill). Works for any politician on CapitolTrades, not just one specific person."
 ---
-
 # CapitolTrades Politician Tracker
 
 Members of Congress must disclose stock trades under the STOCK Act, usually filed 15-45 days after the trade date. CapitolTrades.com aggregates these disclosures per politician. This skill scrapes a politician's page and reports only what's **new** since the last check, so repeated runs (especially scheduled ones) don't re-report the same trades every time.

@@ -1,3 +1,8 @@
+---
+name: youtube-outliner
+description: "YouTube Video Outliner - Samin Yasar Style"
+---
+
 # YouTube Video Outliner - Samin Yasar Style
 
 Create YouTube video outlines that follow Samin's proven structure. Given a topic or concept, this skill produces a full video outline with hooks, frameworks, analogies, and practical walkthroughs.

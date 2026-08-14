@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Chapter Transitions"
+  short_description: "Build crisp reference-matched chapter cards"
+  default_prompt: "Use $create-chapter-transitions to make a polished chapter transition matching my reference."
