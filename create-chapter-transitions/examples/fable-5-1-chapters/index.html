@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-resolution="landscape" data-composition-variables="[
+    {&quot;id&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;Render name&quot;,&quot;default&quot;:&quot;how-i-see-fable-5-1&quot;},
+    {&quot;id&quot;:&quot;title&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;Chapter title&quot;,&quot;default&quot;:&quot;How I See Fable 5.1&quot;,&quot;maxLength&quot;:48}
+  ]">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <title>Fable 5.1 Chapter Transition</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --chapter-bg: #ffffff;
+        --chapter-grid: #c7c7c7;
+        --chapter-ink: #0b0b0d;
+      }
+
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body {
+        width: 1920px;
+        height: 1080px;
+        margin: 0;
+        overflow: hidden;
+        background: transparent;
+      }
+      body { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; }
+      #chapter-transition, #chapter-card, #chapter-canvas, #chapter-grid {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+      #chapter-canvas { background: var(--chapter-bg); }
+      #chapter-grid {
+        background-image:
+          linear-gradient(to right, var(--chapter-grid) 1px, transparent 1px),
+          linear-gradient(to bottom, var(--chapter-grid) 1px, transparent 1px);
+        background-position: center;
+        background-size: 95px 95px;
+        opacity: 0.58;
+        -webkit-mask-image: radial-gradient(ellipse at center, #000 0%, #000 62%, rgba(0, 0, 0, 0.7) 80%, transparent 100%);
+        mask-image: radial-gradient(ellipse at center, #000 0%, #000 62%, rgba(0, 0, 0, 0.7) 80%, transparent 100%);
+      }
+      #chapter-content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 120px 160px;
+      }
+      #chapter-mask {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 84%;
+        max-width: 1612px;
+        height: 320px;
+        overflow: hidden;
+      }
+      #chapter-title {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.25em;
+        row-gap: 0;
+        width: 100%;
+        margin: 0;
+        color: var(--chapter-ink);
+        font-size: 98px;
+        font-weight: 800;
+        font-synthesis: none;
+        letter-spacing: -0.04em;
+        line-height: 0.98;
+        text-align: center;
+        text-rendering: geometricPrecision;
+        -webkit-font-smoothing: antialiased;
+      }
+      .chapter-word {
+        display: inline-block;
+        white-space: nowrap;
+      }
+      .chapter-line-break {
+        flex-basis: 100%;
+        height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main data-hf-id="hf-9fpw" id="chapter-transition" data-composition-id="chapter-transition" data-start="0" data-duration="1.6" data-fps="30" data-width="1920" data-height="1080">
+      <section data-hf-id="hf-2559" id="chapter-card" class="clip" data-start="0" data-duration="1.6" data-track-index="1" aria-label="Chapter transition">
+        <div data-hf-id="hf-2v81" id="chapter-canvas"></div>
+        <div data-hf-id="hf-ra55" id="chapter-grid"></div>
+        <div data-hf-id="hf-rtb4" id="chapter-content">
+          <div data-hf-id="hf-lrbd" id="chapter-mask">
+            <h1 data-hf-id="hf-vwpm" id="chapter-title" aria-label="How I See Fable 5.1"></h1>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      (function () {
+        const fps = 30;
+        const frame = (number) => number / fps;
+        const values = window.__hyperframes.getVariables();
+        const titleText = String(values.title || "How I See Fable 5.1").trim();
+        const title = document.getElementById("chapter-title");
+
+        const titleTokens = titleText.length > 28
+          ? titleText.replace(/Fable 5\.1/g, "Fable\u00a05.1").split(" ")
+          : titleText.split(/\s+/);
+        if (titleText.length > 28) title.style.fontSize = "86px";
+        title.setAttribute("aria-label", titleText);
+        const titleNodes = titleTokens.map((word, index) => {
+          const span = document.createElement("span");
+          span.id = `chapter-word-${index}`;
+          span.className = "chapter-word";
+          span.setAttribute("aria-hidden", "true");
+          span.textContent = word;
+          return span;
+        });
+        if (titleText === "How You Should Use Fable 5.1") {
+          const lineBreak = document.createElement("span");
+          lineBreak.className = "chapter-line-break";
+          lineBreak.setAttribute("aria-hidden", "true");
+          titleNodes.splice(4, 0, lineBreak);
+        }
+        title.replaceChildren(...titleNodes);
+
+        const words = Array.from(document.querySelectorAll(".chapter-word"));
+        const firstRevealFrame = 6;
+        const lastRevealFrame = 19;
+        const revealFrames = words.map((_, index) => {
+          if (words.length === 1) return firstRevealFrame;
+          return Math.round(firstRevealFrame + (index * (lastRevealFrame - firstRevealFrame)) / (words.length - 1));
+        });
+        const tl = gsap.timeline({ paused: true });
+
+        tl.fromTo("#chapter-grid", { opacity: 0 }, { opacity: 0.58, duration: frame(5), ease: "power2.out" }, 0);
+        tl.set(words, { autoAlpha: 0, y: 3, color: "#858585" }, 0);
+        words.forEach((word, index) => {
+          tl.to(word, { autoAlpha: 1, y: 0, color: "#0b0b0d", duration: frame(4), ease: "power2.out" }, frame(revealFrames[index]));
+        });
+        tl.to("#chapter-title", { y: -10, autoAlpha: 0, duration: frame(10), ease: "power2.in" }, frame(38));
+        tl.to("#chapter-grid", { opacity: 0, duration: frame(10), ease: "power2.in" }, frame(38));
+        tl.to("#chapter-canvas", { opacity: 0, duration: frame(10), ease: "power2.in" }, frame(38));
+        tl.seek(0);
+        window.__timelines["chapter-transition"] = tl;
+      })();
+    </script>
+  </body>
+</html>

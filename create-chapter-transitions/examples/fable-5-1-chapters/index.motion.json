@@ -1,0 +1,8 @@
+{
+  "duration": 1.6,
+  "assertions": [
+    { "kind": "appearsBy", "selector": "#chapter-word-4", "bySec": 0.8 },
+    { "kind": "before", "a": "#chapter-word-0", "b": "#chapter-word-4" },
+    { "kind": "staysInFrame", "selector": "#chapter-title" }
+  ]
+}

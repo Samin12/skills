@@ -1,0 +1,28 @@
+{
+  "project_id": "5689",
+  "project_name": "Fable 5.1",
+  "chapter_duration_ms": 1600,
+  "chapters": [
+    { "at_ms": 49679, "render": "01-how-i-see-fable-5-1.mp4", "title": "How I See Fable 5.1" },
+    { "at_ms": 98315, "render": "02-the-good-bad-and-ugly.mp4", "title": "The Good, Bad & Ugly" },
+    { "at_ms": 199608, "render": "03-fable-5-1-cost-analysis.mp4", "title": "Fable 5.1 Cost Analysis" },
+    { "at_ms": 274237, "render": "04-who-should-use-fable-5-1.mp4", "title": "Who Should Use Fable 5.1?" },
+    { "at_ms": 343315, "render": "05-token-portability.mp4", "title": "Token Portability" },
+    { "at_ms": 414353, "render": "06-your-budget-your-model.mp4", "title": "Your Budget, Your Model" },
+    { "at_ms": 468220, "render": "07-how-to-manage-fable-limits.mp4", "title": "How to Manage Fable Limits" },
+    { "at_ms": 558531, "render": "08-how-you-should-use-fable-5-1.mp4", "title": "How You Should Use Fable 5.1" },
+    { "at_ms": 640585, "render": "09-the-gauntlet-loop.mp4", "title": "The Gauntlet Loop" },
+    { "at_ms": 801472, "render": "10-the-office-agent-team.mp4", "title": "The Office Agent Team" }
+  ],
+  "scene_two_broll": {
+    "file": "surgeon_samin_voice.mp4",
+    "timeline_range_ms": [49679, 98226],
+    "source_range_ms": [0, 48547],
+    "audio": "muted",
+    "credit": {
+      "text": "EDITED BY FABLE 5.1",
+      "range_ms": [53350, 56850],
+      "placement": "upper-left"
+    }
+  }
+}

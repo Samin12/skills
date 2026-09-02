@@ -1,0 +1,14 @@
+{
+  "rows": [
+    { "name": "01-how-i-see-fable-5-1", "title": "How I See Fable 5.1" },
+    { "name": "02-the-good-bad-and-ugly", "title": "The Good, Bad & Ugly" },
+    { "name": "03-fable-5-1-cost-analysis", "title": "Fable 5.1 Cost Analysis" },
+    { "name": "04-who-should-use-fable-5-1", "title": "Who Should Use Fable 5.1?" },
+    { "name": "05-token-portability", "title": "Token Portability" },
+    { "name": "06-your-budget-your-model", "title": "Your Budget, Your Model" },
+    { "name": "07-how-to-manage-fable-limits", "title": "How to Manage Fable Limits" },
+    { "name": "08-how-you-should-use-fable-5-1", "title": "How You Should Use Fable 5.1" },
+    { "name": "09-the-gauntlet-loop", "title": "The Gauntlet Loop" },
+    { "name": "10-the-office-agent-team", "title": "The Office Agent Team" }
+  ]
+}
