@@ -11,6 +11,7 @@ Ask your agent to use `$create-chapter-transitions`, or have it read [SKILL.md](
 
 - `agents/`
 - `assets/`
+- `examples/`
 - `references/`
 - [SKILL.md](./SKILL.md)
 

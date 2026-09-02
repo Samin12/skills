@@ -13,6 +13,5 @@ Ask your agent to use `$short-form`, or have it read [SKILL.md](./SKILL.md) befo
 
 ## Provenance
 
-- Installed sources: Content Repurpose
-- Upstream: [https://github.com/Samin12/ContentRepurposeSystem](https://github.com/Samin12/ContentRepurposeSystem)
+- Installed sources: Maintained directly in this repository
 - This catalog excludes local credentials, caches, dependency trees, and VCS metadata.

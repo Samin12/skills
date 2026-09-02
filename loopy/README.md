@@ -15,5 +15,5 @@ Ask your agent to use `$loopy`, or have it read [SKILL.md](./SKILL.md) before st
 
 ## Provenance
 
-- Installed sources: Codex
+- Installed sources: Agents, Claude, Codex
 - This catalog excludes local credentials, caches, dependency trees, and VCS metadata.

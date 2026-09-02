@@ -16,6 +16,6 @@ Ask your agent to use `$visualize-a-cam-intros`, or have it read [SKILL.md](./SK
 
 ## Provenance
 
-- Installed sources: Codex
+- Installed sources: Claude, Codex
 - Upstream: [https://github.com/Samin12/visualize-a-cam-intros](https://github.com/Samin12/visualize-a-cam-intros)
 - This catalog excludes local credentials, caches, dependency trees, and VCS metadata.

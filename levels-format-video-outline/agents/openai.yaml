@@ -1,0 +1,11 @@
+interface:
+  display_name: "Levels Format Video Outline"
+  short_description: "Build level-based YouTube outlines with teaching devices"
+  default_prompt: "Use $levels-format-video-outline to turn my context into a verified Levels Format YouTube outline."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "eden"
+      description: "Read source videos and documents, then save verified outlines in Eden"
+      transport: "streamable_http"
+      url: "https://mcp.eden.so/mcp"

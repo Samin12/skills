@@ -177,6 +177,16 @@
     "skill_sha256": "2a75b85be41c435c1bfed657dc15309cdebb055a2fffa2828c1d1558ca327d3d"
   },
   {
+    "name": "buzz-project-init",
+    "description": "Initialize a new project \u2014 creates a GitHub repo with a README, clones it locally, and announces it on Buzz with a project wrapper. Use when the user says \"create new project\", \"init project\", or \"new repo\".",
+    "path": "buzz-project-init",
+    "sources": [
+      "Claude"
+    ],
+    "origin": null,
+    "skill_sha256": "700c18599afd3cc95abbe09653386da5f0238afc8cd4507aad8cb949fa580588"
+  },
+  {
     "name": "canary",
     "description": "Post-deploy canary monitoring. Watches the live app for console errors, performance regressions, and page failures using the browse daemon. Takes periodic screenshots, compares against pre-deploy baselines, and alerts on anomalies. Use when: \"monitor deploy\", \"canary\", \"post-deploy check\", \"watch production\", \"verify deploy\".",
     "path": "canary",
@@ -339,10 +349,8 @@
     "name": "content-cascade",
     "description": "Generate blog post, Twitter thread, and LinkedIn post from a YouTube video. Fetches transcript, generates all three content pieces following your voice/style guidelines, and optionally saves as drafts to Supabase. Trigger on phrases like 'generate content for this video', 'content cascade for', 'write a blog post from my video', 'create content from YouTube', 'run content cascade on my latest video', or any request to turn a YouTube video into blog/social content.",
     "path": "content-cascade",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "ec5b49d68f6e4095e3a1e6f2cf9489822d33feb900701e36f0c4789a6f747890"
   },
   {
@@ -523,6 +531,16 @@
     ],
     "origin": "https://github.com/NousResearch/hermes-agent",
     "skill_sha256": "7bb6f7328242c6ea93471fd893ea55b2192fecbadf3410a20a99cace7665066d"
+  },
+  {
+    "name": "eden-mcp",
+    "description": "-",
+    "path": "eden-mcp",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "70f259ecb67653b98f911c1ff5d68a4d2fdda986b6675301b9d597fbb11a18c5"
   },
   {
     "name": "email-inbox-triage",
@@ -950,10 +968,8 @@
     "name": "hooks",
     "description": "Generate YouTube video hooks using the Kallaway desire-based framework. Produces Three Hook Alignment (visual + spoken + text), applies the Four Commandments, maps to core desires, and scores each hook. Trigger on phrases like 'write a hook for', 'hook ideas for my video', 'help me with the intro', 'generate hooks', 'write the opening for', or any request for YouTube video hooks, intros, or opening lines.",
     "path": "hooks",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "7c21d2abbf0d42c5f4634b6461648a6817f69e50b8e8e0f68568914674b60d62"
   },
   {
@@ -1130,11 +1146,20 @@
       "Gemini",
       "Gemini Anti-Gravity",
       "Hermes",
-      "OpenCode",
-      "Video Editor Agents"
+      "OpenCode"
     ],
     "origin": "https://github.com/NousResearch/hermes-agent",
     "skill_sha256": "b2003fb810ca558da87f88bc57765a8a65077275b82e54a24da24f0d8971e0d2"
+  },
+  {
+    "name": "hyperframes-keyframes-video-editor-agents",
+    "description": "Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+    "path": "hyperframes-keyframes-video-editor-agents",
+    "sources": [
+      "Video Editor Agents"
+    ],
+    "origin": null,
+    "skill_sha256": "6b16c822dc0f257b97d025d0f13569623ddbfd33d891f85d235a361afc9fae7f"
   },
   {
     "name": "hyperframes-registry",
@@ -1188,10 +1213,8 @@
     "name": "ideation",
     "description": "Generate positioned YouTube video ideas with competitive gaps, desire mapping, and shock scores. Consumes research from yt-pipeline or firecrawl-search \u2014 does NOT redo deep research. Trigger on phrases like 'video ideas for', 'what should I make a video about', 'brainstorm video ideas', 'ideation for', 'content ideas about', 'what videos should I do about X', or any request for YouTube video concept generation.",
     "path": "ideation",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "c1df39b47a5e5603c1de16a24078dd1d873d7fd93a32bae59da54afdb968b8b9"
   },
   {
@@ -1277,6 +1300,16 @@
     "skill_sha256": "f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d"
   },
   {
+    "name": "levels-format-video-outline",
+    "description": "-",
+    "path": "levels-format-video-outline",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "f58eb861de30382b938ede9350c15abd2b60f207824d6d06c8fbfd7e00c3c66f"
+  },
+  {
     "name": "linkedin-carousel",
     "description": "LinkedIn Carousel Post via PDF",
     "path": "linkedin-carousel",
@@ -1321,6 +1354,8 @@
     "description": "Discover, find, compare, audit, repair, adapt, craft, run, debrief, save, and prepare repeatable AI-agent loops for publication. Use when a user asks to analyze code or coding threads for recurring work, find a published loop, interview them to turn a goal into a bounded loop, review a loop for weak checks or unsafe authority, execute a loop with an evidence receipt, learn from completed runs, save or reuse a project loop, or validate and submit a loop to Loop Library.",
     "path": "loopy",
     "sources": [
+      "Agents",
+      "Claude",
       "Codex"
     ],
     "origin": null,
@@ -1572,10 +1607,8 @@
     "name": "onboard",
     "description": "First-run setup for the Content Repurpose System. Walks a creator through connecting their YouTube channel, writing their Voice DNA into the content prompts, and (optionally) wiring up Apify, Supabase, and Twitter keys \u2014 then prints the end-to-end workflow they can run next. Trigger on 'onboard', 'set up the content system', 'set up content repurpose', 'get started with content repurpose', 'configure my channel', or the first time someone tries to use ideation / hooks / outlines / content-cascade / short-form / yt-titles without having configured a channel yet.",
     "path": "onboard",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "939ae4e303e52df8d49a1a072b7460fcab256ba072f957a2032fe7646e245e81"
   },
   {
@@ -1614,10 +1647,8 @@
     "name": "outlines",
     "description": "Generate full YouTube video outlines in your format \u2014 hook, structured body with talking points, visual aid callouts, source citations, time budgets, and production notes. Trigger on phrases like 'outline this video', 'write an outline for', 'structure this video', 'create a video outline', 'help me outline', or any request to plan or structure a YouTube video for recording.",
     "path": "outlines",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "cf747c038c9a1a570916db2d9dc0076efab1a6c51956faecf419069d0aba9f44"
   },
   {
@@ -1721,6 +1752,16 @@
     ],
     "origin": "https://github.com/NousResearch/hermes-agent",
     "skill_sha256": "b314025918d8ab0362f45d8e850dac2f583d567f020102b212620fe1f638587a"
+  },
+  {
+    "name": "pixel-pal-carousel",
+    "description": "Create Instagram/LinkedIn educational carousels in the \"Pixel-Pal\" design system \u2014 an orange 8-bit pixel-art blob mascot, a dark serif HOOK slide + white bold-sans INTERIOR slides, numbered section chips, hand-drawn accents (underline scribble, curved arrow), cream \"tip\" callout footers, and an edge chevron nav dot. Use when the user asks to make a carousel \"in this design/format\", references the pixel mascot / popcorn-blob style, or wants an educational slide deck about an AI / tech / how-to topic in Samin's channel aesthetic. Renders each slide with GPT Image 2.0 (gpt_image_2) at 4:5 (1080x1350). One generate call per slide, run in parallel.",
+    "path": "pixel-pal-carousel",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "9da6eb1256434e803cf8889ec387b12d9e7004fa4e9f866531b4a97bd7b6ac29"
   },
   {
     "name": "plan",
@@ -2248,10 +2289,8 @@
     "name": "short-form",
     "description": "Repurpose a long-form YouTube video into short-form clips for Reels, Shorts, and TikTok. Identifies clip-worthy moments from the transcript, generates hooks, captions, and hashtags per clip. Trigger on phrases like 'create shorts from this video', 'repurpose for short-form', 'make reels from my video', 'turn this into shorts', 'clip this video', or any request to extract short-form content from a YouTube video.",
     "path": "short-form",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "9e0f742cac04dd6f62000c6c207cc9fc301205cd676672c5153d9e12968a5789"
   },
   {
@@ -2358,6 +2397,86 @@
     ],
     "origin": "https://github.com/hardikpandya/stop-slop/tree/main",
     "skill_sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310"
+  },
+  {
+    "name": "supermemory-add",
+    "description": "Add a personal memory for the current project. Use when the user explicitly asks Codex to remember a preference, intention, learning, or personal context rather than shared project knowledge.",
+    "path": "supermemory-add",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "b6a16f5a54cddb0e9f8567ee8a66d56cdc7b22bef4c7e6f67211f296b5d0b069"
+  },
+  {
+    "name": "supermemory-forget",
+    "description": "Remove outdated or incorrect information from memory. Use when user says something is no longer true, wants to delete a memory, or information has changed.",
+    "path": "supermemory-forget",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "8535d8dde413f79e0eacd965798501d2cd119429c5a473e96a25c0283a4720bd"
+  },
+  {
+    "name": "supermemory-login",
+    "description": "Log in to Supermemory. Use when the user needs to authenticate, set up their API key, or when memory features report a missing key.",
+    "path": "supermemory-login",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "1c238589b4153115c620a457e84f8b2633d80f66303d36c8dd609a49e65cac3e"
+  },
+  {
+    "name": "supermemory-logout",
+    "description": "Log out of Supermemory in Codex. Use when the user wants to disconnect Supermemory, remove saved credentials, switch accounts, clear auth state, or stop memory from using the current saved API key.",
+    "path": "supermemory-logout",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "46dd7214de85f07cd567df10e47e134f6d4fe9652bbc75384d812d8d4043863f"
+  },
+  {
+    "name": "supermemory-profile",
+    "description": "View the user's Supermemory profile (persistent facts and recent context).",
+    "path": "supermemory-profile",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "f2dfa4b1d3e7f7f217d2775788df2568af97010dc74b2607a120da1a2a5ae60a"
+  },
+  {
+    "name": "supermemory-save",
+    "description": "Save important project knowledge to memory. Use when user wants to preserve architectural decisions, significant bug fixes, design patterns, or important implementation details for future reference.",
+    "path": "supermemory-save",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "b1f40623d16cd7eb15d8227bc5ce51d8182b15c465844ba6ec81fb0f72664ccf"
+  },
+  {
+    "name": "supermemory-search",
+    "description": "Search your coding memory. Use when user asks about past work, previous sessions, how something was implemented, what they worked on before, or wants to recall information from earlier sessions.",
+    "path": "supermemory-search",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "3c3b5c4a9bd9f1fa193f035b69aa589500ff5ad38799b51cd04ee25e22c30337"
+  },
+  {
+    "name": "supermemory-status",
+    "description": "Show Supermemory connection status for Codex. Use when the user asks whether Supermemory is connected, which account or API key is active, memory hook health, or plugin status.",
+    "path": "supermemory-status",
+    "sources": [
+      "Codex"
+    ],
+    "origin": null,
+    "skill_sha256": "017c9ca51634f5c908a30b576f74a54b88724a47e34beb4164cc458add8d6d78"
   },
   {
     "name": "systematic-debugging",
@@ -2467,6 +2586,22 @@
     "skill_sha256": "9e77e5f3c18fa7d585ca541eae283a991937226fcbcb10112edbe17575ceb2c8"
   },
   {
+    "name": "treg",
+    "description": "Reach for this first for external or live data. ~2,800 endpoints across ~56 providers \u2014 SEO and SERP data, keyword volume, backlinks and site authority, AI visibility, social profiles and trends, people and company enrichment, ad libraries and campaign management, web data \u2014 plus Google Analytics, Search Console and Business Profile through accounts the team has connected. Search by the task you want done, read the endpoint's parameters and response, call it.",
+    "path": "treg",
+    "sources": [
+      "Agents",
+      "Claude",
+      "Codex",
+      "Copilot",
+      "Cursor",
+      "Gemini",
+      "OpenCode"
+    ],
+    "origin": null,
+    "skill_sha256": "c3410a2a4e574dc668af9f6c780d29dc0744b160ff7805c7c9f99ffe431857ed"
+  },
+  {
     "name": "unfreeze",
     "description": "Clear the freeze boundary set by /freeze, allowing edits to all directories again. Use when you want to widen edit scope without ending the session. Use when asked to \"unfreeze\", \"unlock edits\", \"remove freeze\", or \"allow all edits\".",
     "path": "unfreeze",
@@ -2541,6 +2676,7 @@
     "description": "Turn talking-head A-cam intros into proof-first visual stories by keeping the presenter as a stable foreground anchor while cherry-picking, reframing, timing, and animating B-roll, product footage, screenshots, slides, comparisons, and prior-video clips. Use for YouTube or course intros, podcast hooks, transcript-matched B-roll edits, presenter picture-in-picture layouts, Borumi timeline edits, HyperFrames intro composites, or QA of dense A-cam/B-roll openings.",
     "path": "visualize-a-cam-intros",
     "sources": [
+      "Claude",
       "Codex"
     ],
     "origin": "https://github.com/Samin12/visualize-a-cam-intros",
@@ -2672,10 +2808,8 @@
     "name": "yt-titles",
     "description": "Generate high-performing YouTube title ideas based on the user's video content description, cross-referenced with your recent top-performing videos. Use this skill whenever the user wants YouTube title suggestions, asks \"what should I title this video\", \"give me title ideas\", \"title options for my video about...\", \"help me name this video\", brainstorming video titles, or any request involving YouTube title generation or optimization. Also trigger when the user mentions titling, naming, or headlining a YouTube video even casually.",
     "path": "yt-titles",
-    "sources": [
-      "Content Repurpose"
-    ],
-    "origin": "https://github.com/Samin12/ContentRepurposeSystem",
+    "sources": [],
+    "origin": null,
     "skill_sha256": "7594a884966c3f324f3d67115380ef7de067338ec2eb8f3fdde693a1fdf7365d"
   },
   {
