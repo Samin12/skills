@@ -9,6 +9,7 @@
     { "name": "07-how-to-manage-fable-limits", "title": "How to Manage Fable Limits" },
     { "name": "08-how-you-should-use-fable-5-1", "title": "How You Should Use Fable 5.1" },
     { "name": "09-the-gauntlet-loop", "title": "The Gauntlet Loop" },
-    { "name": "10-the-office-agent-team", "title": "The Office Agent Team" }
+    { "name": "10-the-office-agent-team", "title": "The Office Agent Team" },
+    { "name": "11-real-world-testing", "title": "Real-World Testing" }
   ]
 }

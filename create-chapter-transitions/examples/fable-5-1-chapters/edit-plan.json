@@ -1,7 +1,7 @@
 {
   "project_id": "5689",
   "project_name": "Fable 5.1",
-  "committed_duration_ms": 964524,
+  "committed_duration_ms": 1142385,
   "chapter_duration_ms": 1600,
   "chapter_placement": "standalone_gap",
   "chapters": [
@@ -14,7 +14,8 @@
     { "at_ms": 477820, "render": "07-how-to-manage-fable-limits.mp4", "title": "How to Manage Fable Limits" },
     { "at_ms": 569731, "render": "08-how-you-should-use-fable-5-1.mp4", "title": "How You Should Use Fable 5.1" },
     { "at_ms": 653385, "render": "09-the-gauntlet-loop.mp4", "title": "The Gauntlet Loop" },
-    { "at_ms": 815872, "render": "10-the-office-agent-team.mp4", "title": "The Office Agent Team" }
+    { "at_ms": 815872, "render": "10-the-office-agent-team.mp4", "title": "The Office Agent Team" },
+    { "at_ms": 899021, "render": "11-real-world-testing.mp4", "title": "Real-World Testing" }
   ],
   "scene_two_broll": {
     "file": "scene2-surgeon-with-presenter-corner.mp4",
@@ -39,5 +40,5 @@
     "bundled": false,
     "note": "Reused from prior Borumi chapter-transition projects; the audio asset is intentionally not published in this repository."
   },
-  "borumi_commits": ["cc96", "25c6"]
+  "borumi_commits": ["cc96", "25c6", "2b4c"]
 }
